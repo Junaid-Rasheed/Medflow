@@ -217,7 +217,7 @@ function AboutUS() {
                   breathing and stress indicators all
                   <br /> without special hardware or equipment. Just the use of{" "}
                   <br />
-                  the patient's computer or mobile phone camera.
+                  the patient&apos;s computer or mobile phone camera.
                 </p>
               )}
             </div>

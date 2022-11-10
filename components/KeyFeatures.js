@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
+import Link from "next/link";
 
 function KeyFeatures() {
   const isSmallDevice = useMediaQuery({
@@ -150,7 +151,8 @@ function KeyFeatures() {
             <div class="container px-24 py-10 mx-auto">
               <div class="flex flex-wrap -m-4">
                 <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a
+                  <Link
+                    href={""}
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
@@ -161,7 +163,7 @@ function KeyFeatures() {
                       class="object-center"
                       src="/assets/round-1.png"
                     />
-                  </a>
+                  </Link>
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
@@ -176,7 +178,8 @@ function KeyFeatures() {
                   </div>
                 </div>
                 <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a
+                  <Link
+                    href={""}
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
@@ -187,7 +190,7 @@ function KeyFeatures() {
                       class="object-center"
                       src="/assets/round-2.png"
                     />
-                  </a>
+                  </Link>
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
@@ -201,7 +204,8 @@ function KeyFeatures() {
                   </div>
                 </div>
                 <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a
+                  <Link
+                    href={""}
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
@@ -212,7 +216,7 @@ function KeyFeatures() {
                       class="object-center"
                       src="/assets/round-3.png"
                     />
-                  </a>
+                  </Link>
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
@@ -226,7 +230,8 @@ function KeyFeatures() {
                   </div>
                 </div>
                 <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a
+                  <Link
+                    href={""}
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
@@ -237,7 +242,7 @@ function KeyFeatures() {
                       class="object-center"
                       src="/assets/round-4.png"
                     />
-                  </a>
+                  </Link>
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}

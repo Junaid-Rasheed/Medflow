@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import { AiOutlineArrowRight } from "react-icons/ai";
-
+import Link from "next/link";
 function Footer() {
   const isSmallDevice = useMediaQuery({
     query: "(max-width: 768px)",
@@ -148,32 +148,27 @@ function Footer() {
         ) : (
           <div class="container px-48 my-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-              <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+              <Link
+                href={""}
+                class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+              >
                 <Image
                   alt="image"
                   width={170}
                   height={170}
                   src="/assets/logo.png"
                 />
-              </a>
+              </Link>
               <p class="my-8 text-base text-white">
                 30 N Gloud St Ste R <br /> Sheridan, WY 82801
               </p>
 
               <span class="inline-flex sm:ml-auto sm:mt-0 mt-2   justify-center sm:justify-start">
-                <a class="text-white">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                </a>
-                <a class="ml-3 text-white">
+                <Link
+                  href=" https://twitter.com/MedflowAI"
+                  target={"_blank"}
+                  class="ml-3 text-white"
+                >
                   <svg
                     fill="currentColor"
                     stroke-linecap="round"
@@ -184,8 +179,12 @@ function Footer() {
                   >
                     <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                   </svg>
-                </a>
-                <a class="ml-3 text-white">
+                </Link>
+                <Link
+                  href="https://www.instagram.com/medflowai/"
+                  target={"_blank"}
+                  class="ml-3 text-white"
+                >
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -205,8 +204,8 @@ function Footer() {
                     ></rect>
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                   </svg>
-                </a>
-                <a class="ml-3 text-white">
+                </Link>
+                {/* <Link href={""} class="ml-3 text-white">
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -222,101 +221,122 @@ function Footer() {
                     ></path>
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
                   </svg>
-                </a>
+                </Link> */}
               </span>
             </div>
             <div class="flex-grow flex flex-wrap md:pl-20  md:mt-0 mt-10 md:text-left text-center">
               <div class="lg:w-1/3 md:w-1/2 w-full px-4 pt-6">
                 <nav class="list-none ">
                   <li className="py-1">
-                    <a class="text-white hover:text-[#d7253f] cursor-pointer">
+                    <Link
+                      href={""}
+                      class="text-white hover:text-[#d7253f] cursor-pointer"
+                    >
                       Our Services
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a
+                    <Link
                       href="#about"
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a
+                    <Link
                       href="#keyfeature"
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       Key Feature
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a
+                    <Link
                       href="#team"
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       Our Team
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a
+                    <Link
                       href="#contact"
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>
               <div class="lg:w-1/3 md:w-1/2 w-full px-4 pt-6">
                 <nav class="list-none">
                   <li className="py-1">
-                    <a
+                    <Link
                       href="#about"
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a class="text-white hover:text-[#d7253f] cursor-pointer">
+                    <Link
+                      href={""}
+                      class="text-white hover:text-[#d7253f] cursor-pointer"
+                    >
                       FAQ
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a
+                    <Link
                       href="/PRIVACY POLICY.pdf"
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                       target={"_blank"}
                     >
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a class="text-white hover:text-[#d7253f] cursor-pointer">
+                    <Link
+                      href={""}
+                      class="text-white hover:text-[#d7253f] cursor-pointer"
+                    >
                       T&C
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a class="text-white hover:text-[#d7253f] cursor-pointer">
+                    <Link
+                      href={""}
+                      class="text-white hover:text-[#d7253f] cursor-pointer"
+                    >
                       NDA Special
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>
               <div class="lg:w-1/3 md:w-1/2 w-full px-4 pt-6">
                 <nav class="list-none ">
                   <li className="py-1">
-                    <a class="text-white hover:text-[#d7253f] cursor-pointer">
+                    <Link
+                      href={""}
+                      class="text-white hover:text-[#d7253f] cursor-pointer"
+                    >
                       Newsletter
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-4">
-                    <a class="text-white  hover:text-[#d7253f] cursor-pointer">
+                    <Link
+                      href={""}
+                      class="text-white  hover:text-[#d7253f] cursor-pointer"
+                    >
                       Sign up to our newsletter
-                    </a>
+                    </Link>
                   </li>
                   <li className="py-1">
-                    <a class=" flex flex-row text-white hover:text-[#d7253f] cursor-pointer">
+                    <Link
+                      href={""}
+                      class=" flex flex-row text-white hover:text-[#d7253f] cursor-pointer"
+                    >
                       <input
                         placeholder="hq@medflow.ai"
                         style={{
@@ -333,10 +353,7 @@ function Footer() {
                         style={{ filter: "opacity(0.5)" }}
                         src="/ellipse/Ellipse 59.png"
                       />
-                      {/* <AiOutlineArrowRight
-                        style={{ color: "white", backgroundColor: "white" }}
-                      /> */}
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>

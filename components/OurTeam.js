@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
+import Link from "next/link";
 function OurTeam() {
   const isSmallDevice = useMediaQuery({
     query: "(max-width: 768px)",
@@ -158,7 +159,8 @@ function OurTeam() {
         </p>
         <div class="font-Yaro flex flex-wrap -m-4 pt-14 mb-48">
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
+              href={""}
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
@@ -169,7 +171,7 @@ function OurTeam() {
                 class="object-center rounded-full "
                 src="/Team Pics/carl.png"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
@@ -187,7 +189,8 @@ function OurTeam() {
             </div>
           </div>
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
+              href={""}
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
@@ -198,7 +201,7 @@ function OurTeam() {
                 class="object-center rounded-full"
                 src="/Team Pics/KawalArora.png"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
@@ -216,7 +219,8 @@ function OurTeam() {
             </div>
           </div>
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
+              href={""}
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
@@ -227,7 +231,7 @@ function OurTeam() {
                 class="object-center rounded-full"
                 src="/Team Pics/SunilArora.jpg"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
@@ -245,7 +249,8 @@ function OurTeam() {
             </div>
           </div>
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
+              href={""}
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
@@ -256,7 +261,7 @@ function OurTeam() {
                 class="object-center rounded-full"
                 src="/Team Pics/Bryant2BWHeadshot2.png"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
@@ -277,8 +282,9 @@ function OurTeam() {
             </div>
           </div>
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
               style={{ display: "flex", justifyContent: "center" }}
+              href={""}
               class="relative block m-0 rounded overflow-hidden"
             >
               <Image
@@ -288,7 +294,7 @@ function OurTeam() {
                 class="object-center rounded-full"
                 src="/Team Pics/KellyFenemore2.png"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
@@ -309,8 +315,9 @@ function OurTeam() {
             </div>
           </div>
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
               style={{ display: "flex", justifyContent: "center" }}
+              href={""}
               class="relative block m-0 rounded overflow-hidden"
             >
               <Image
@@ -320,7 +327,7 @@ function OurTeam() {
                 class="object-center rounded-full"
                 src="/Team Pics/Daniel_email_sig_Rez_Increase.png"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
@@ -341,8 +348,9 @@ function OurTeam() {
             </div>
           </div>
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
               style={{ display: "flex", justifyContent: "center" }}
+              href={""}
               class="relative block m-0 rounded overflow-hidden"
             >
               <Image
@@ -352,7 +360,7 @@ function OurTeam() {
                 class="object-center rounded-full"
                 src="/Team Pics/Curtis_Strong.png"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
@@ -373,7 +381,8 @@ function OurTeam() {
             </div>
           </div>
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a
+            <Link
+              href={""}
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
@@ -384,7 +393,7 @@ function OurTeam() {
                 class="object-center rounded-full"
                 src="/Team Pics/DamonFogal.png"
               />
-            </a>
+            </Link>
             <div>
               <h2
                 style={{ color: "#222a4c" }}
