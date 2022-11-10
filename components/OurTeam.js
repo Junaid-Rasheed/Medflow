@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
-
+import Image from "next/image";
 function OurTeam() {
   const isSmallDevice = useMediaQuery({
     query: "(max-width: 768px)",
@@ -29,7 +29,9 @@ function OurTeam() {
             : "container px-24 py-10 mx-auto"
         }
       >
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "2%",
@@ -38,7 +40,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 54.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "1%",
@@ -47,7 +51,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 53.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "2%",
@@ -56,7 +62,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 54.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "1%",
@@ -65,7 +73,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 53.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "3%",
@@ -74,7 +84,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 65.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "1%",
@@ -83,7 +95,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 53.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "1%",
@@ -92,7 +106,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 53.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "2%",
@@ -101,7 +117,9 @@ function OurTeam() {
           }}
           src="/ellipse/Ellipse 54.png"
         />
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
             width: "2%",
@@ -135,7 +153,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full "
                 src="/Team Pics/carl.png"
@@ -162,7 +182,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
                 src="/Team Pics/KawalArora.png"
@@ -189,7 +211,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
                 src="/Team Pics/SunilArora.jpg"
@@ -216,7 +240,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
                 src="/Team Pics/Bryant2BWHeadshot2.png"
@@ -246,7 +272,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
                 src="/Team Pics/KellyFenemore2.png"
@@ -276,7 +304,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
                 src="/Team Pics/Daniel_email_sig_Rez_Increase.png"
@@ -306,7 +336,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
                 src="/Team Pics/Curtis_Strong.png"
@@ -336,7 +368,9 @@ function OurTeam() {
               style={{ display: "flex", justifyContent: "center" }}
               class="relative block m-0 rounded overflow-hidden"
             >
-              <img
+              <Image
+                width={200}
+                height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
                 src="/Team Pics/DamonFogal.png"

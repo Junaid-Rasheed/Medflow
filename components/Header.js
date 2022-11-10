@@ -1,3 +1,4 @@
+import Image from "next/image";
 function Header() {
   return (
     <nav
@@ -6,11 +7,13 @@ function Header() {
     >
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" className="flex lg:flex-[0.2] items-center">
-          <img
+          <Image
+            width={170}
+            height={200}
             src="/assets/logo.png"
             className="mr-3 h-6 sm:h-9"
             alt="Medflow Logo"
-          ></img>
+          />
         </a>
         {/* <div className="flex lg:flex-[0.2] md:order-2">Hello</div> */}
         <div

@@ -22,7 +22,9 @@ function AboutUS() {
   return (
     <div id="about">
       <section className="text-gray-600 body-font overflow-hidden">
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
           }}
@@ -53,7 +55,9 @@ function AboutUS() {
               />
             )}
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <img
+              <Image
+                width={100}
+                height={100}
                 style={{
                   position: "absolute",
                   width: "1%",
@@ -62,7 +66,9 @@ function AboutUS() {
                 }}
                 src="/ellipse/Ellipse 53.png"
               />
-              <img
+              <Image
+                width={100}
+                height={100}
                 style={{
                   position: "absolute",
                   width: "2%",
@@ -97,7 +103,9 @@ function AboutUS() {
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient Identity using next generation zero-trust security architecture."}
               </p>
-              <img
+              <Image
+                width={100}
+                height={100}
                 style={{
                   position: "absolute",
                   width: "3%",
@@ -106,7 +114,9 @@ function AboutUS() {
                 }}
                 src="/ellipse/Ellipse 56-1.png"
               />
-              <img
+              <Image
+                width={100}
+                height={100}
                 style={{
                   position: "absolute",
                   width: "1%",
@@ -141,7 +151,9 @@ function AboutUS() {
             className="lg:w-4/5 mx-auto flex flex-wrap"
           >
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <img
+              <Image
+                width={100}
+                height={100}
                 style={{
                   position: "absolute",
                   width: "1%",
@@ -150,7 +162,9 @@ function AboutUS() {
                 }}
                 src="/ellipse/Ellipse 53.png"
               />
-              <img
+              <Image
+                width={100}
+                height={100}
                 style={{
                   position: "absolute",
                   width: "2%",
@@ -220,7 +234,9 @@ function AboutUS() {
                 }}
               />
             )}
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "3%",

@@ -321,7 +321,9 @@ function Footer() {
                           height: "35px",
                         }}
                       />
-                      <img
+                      <Image
+                        width={100}
+                        height={100}
                         style={{ filter: "opacity(0.5)" }}
                         src="/ellipse/Ellipse 59.png"
                       />

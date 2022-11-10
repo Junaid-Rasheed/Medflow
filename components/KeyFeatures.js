@@ -20,7 +20,9 @@ function KeyFeatures() {
   return (
     <div id="keyfeature">
       <section className="text-gray-600 body-font overflow-hidden">
-        <img
+        <Image
+          width={100}
+          height={100}
           style={{
             position: "absolute",
           }}
@@ -40,7 +42,9 @@ function KeyFeatures() {
           >
             Key Features
           </p>
-          <img
+          <Image
+            width={100}
+            height={100}
             style={{
               position: "absolute",
               width: "2%",
@@ -49,7 +53,9 @@ function KeyFeatures() {
             }}
             src="/ellipse/Ellipse 64.png"
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             style={{
               position: "absolute",
               width: "1%",
@@ -69,7 +75,9 @@ function KeyFeatures() {
                 height={400}
               />
             )}
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "3%",
@@ -78,7 +86,9 @@ function KeyFeatures() {
               }}
               src="/ellipse/Ellipse 56.png"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "1%",
@@ -137,7 +147,9 @@ function KeyFeatures() {
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       alt="ecommerce"
                       class="object-center"
                       src="/assets/round-1.png"
@@ -161,7 +173,9 @@ function KeyFeatures() {
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       alt="ecommerce"
                       class="object-center"
                       src="/assets/round-2.png"
@@ -184,7 +198,9 @@ function KeyFeatures() {
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       alt="ecommerce"
                       class="object-center"
                       src="/assets/round-3.png"
@@ -207,7 +223,9 @@ function KeyFeatures() {
                     style={{ display: "flex", justifyContent: "center" }}
                     class="relative block m-0 rounded overflow-hidden"
                   >
-                    <img
+                    <Image
+                      width={100}
+                      height={100}
                       alt="ecommerce"
                       class="object-center"
                       src="/assets/round-4.png"
@@ -255,7 +273,9 @@ function KeyFeatures() {
                 height={400}
               />
             )}
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "1%",
@@ -264,7 +284,9 @@ function KeyFeatures() {
               }}
               src="/ellipse/Ellipse 53.png"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "2%",
@@ -312,7 +334,9 @@ function KeyFeatures() {
             ) : (
               ""
             )}
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "3%",
@@ -321,7 +345,9 @@ function KeyFeatures() {
               }}
               src="/ellipse/Ellipse 58.png"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "1%",
@@ -379,7 +405,9 @@ function KeyFeatures() {
               width={500}
               height={500}
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "2%",
@@ -388,7 +416,9 @@ function KeyFeatures() {
               }}
               src="/ellipse/Ellipse 64.png"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "1%",
@@ -397,7 +427,9 @@ function KeyFeatures() {
               }}
               src="/ellipse/Ellipse 55.png"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "3%",
@@ -406,7 +438,9 @@ function KeyFeatures() {
               }}
               src="/ellipse/Ellipse 58.png"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 width: "1%",

@@ -1,3 +1,4 @@
+import Image from "next/image";
 const ImageCard = (props) => {
   return (
     <div className={`bg-no-repeat w-screen bg-cover bg-center relative`}>
@@ -5,7 +6,9 @@ const ImageCard = (props) => {
 
       <div className="flex flex-col-reverse relative">
         <div className="h-screen relative">
-          <img
+          <Image
+            width={10000}
+            height={10000}
             style={{ filter: "brightness(0.8)" }}
             className="w-screen h-screen aspect-video object-cover z-0 absolute top-0 left-0"
             src={props.src}

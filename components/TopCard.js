@@ -61,7 +61,9 @@ function TopCard() {
               ? data.map((obj) => obj.attributes.buttonText)
               : " Contact us for early access"}
           </button>
-          <img
+          <Image
+            width={100}
+            height={100}
             style={{
               position: "absolute",
               width: "2%",
@@ -71,7 +73,9 @@ function TopCard() {
             }}
             src="/ellipse/Ellipse 60.png"
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             style={{
               position: "absolute",
               width: "2%",
@@ -81,7 +85,9 @@ function TopCard() {
             }}
             src="/ellipse/Ellipse 64.png"
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             style={{
               position: "absolute",
               width: "3%",
@@ -94,7 +100,9 @@ function TopCard() {
       </ImageCard>
 
       {isSmallDevice ? (
-        <img
+        <Image
+          width={900}
+          height={900}
           style={{
             position: "absolute",
             top: "120px",
@@ -106,7 +114,9 @@ function TopCard() {
           src="/assets/Medflow UI (1) 1.png"
         />
       ) : (
-        <img
+        <Image
+          width={1000}
+          height={1000}
           style={{
             position: "absolute",
             top: "253px",

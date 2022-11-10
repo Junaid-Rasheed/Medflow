@@ -28,7 +28,9 @@ function Cybersecurity() {
             >
               Cybersecurity
             </h2>
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 right: "27%",
@@ -64,7 +66,9 @@ function Cybersecurity() {
                 tokenized <br /> encrypted data handoff
               </p>
             )}
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 left: "20%",
@@ -72,7 +76,9 @@ function Cybersecurity() {
               }}
               src="/ellipse/Ellipse 60.png"
             />
-            <img
+            <Image
+              width={100}
+              height={100}
               style={{
                 position: "absolute",
                 left: "42%",
@@ -85,7 +91,9 @@ function Cybersecurity() {
         </div>
       </ImageCard>
       {isSmallDevice ? (
-        <img
+        <Image
+          width={1000}
+          height={1000}
           style={{
             position: "absolute",
             top: "393px",
@@ -95,7 +103,9 @@ function Cybersecurity() {
           src="/assets/Group 548.png"
         />
       ) : (
-        <img
+        <Image
+          width={1000}
+          height={1000}
           style={{
             position: "absolute",
             top: "273px",
@@ -105,7 +115,9 @@ function Cybersecurity() {
           src="/assets/Group 548.png"
         />
       )}
-      <img
+      <Image
+        width={100}
+        height={100}
         style={{
           position: "absolute",
           left: "18%",
@@ -114,7 +126,9 @@ function Cybersecurity() {
         }}
         src="/ellipse/Ellipse 56.png"
       />
-      <img
+      <Image
+        width={100}
+        height={100}
         style={{
           position: "absolute",
           left: "27%",
@@ -123,7 +137,9 @@ function Cybersecurity() {
         }}
         src="/ellipse/Ellipse 60.png"
       />
-      <img
+      <Image
+        width={100}
+        height={100}
         style={{
           position: "absolute",
           right: "34%",
@@ -132,7 +148,9 @@ function Cybersecurity() {
         }}
         src="/ellipse/Ellipse 60.png"
       />
-      <img
+      <Image
+        width={100}
+        height={100}
         style={{
           position: "absolute",
           right: "20%",
@@ -141,7 +159,9 @@ function Cybersecurity() {
         }}
         src="/ellipse/Ellipse 64.png"
       />
-      <img
+      <Image
+        width={100}
+        height={100}
         style={{
           position: "absolute",
           right: "15%",
