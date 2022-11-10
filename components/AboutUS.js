@@ -23,6 +23,7 @@ function AboutUS() {
     <div id="about">
       <section className="text-gray-600 body-font overflow-hidden">
         <Image
+          alt="image"
           width={100}
           height={100}
           style={{
@@ -48,6 +49,7 @@ function AboutUS() {
               ""
             ) : (
               <Image
+                alt="image"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
                 src="/assets/Patient intake step 2-1 1.png"
                 width={500}
@@ -56,6 +58,7 @@ function AboutUS() {
             )}
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <Image
+                alt="image"
                 width={100}
                 height={100}
                 style={{
@@ -67,6 +70,7 @@ function AboutUS() {
                 src="/ellipse/Ellipse 53.png"
               />
               <Image
+                alt="image"
                 width={100}
                 height={100}
                 style={{
@@ -104,6 +108,7 @@ function AboutUS() {
                   : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient Identity using next generation zero-trust security architecture."}
               </p>
               <Image
+                alt="image"
                 width={100}
                 height={100}
                 style={{
@@ -115,6 +120,7 @@ function AboutUS() {
                 src="/ellipse/Ellipse 56-1.png"
               />
               <Image
+                alt="image"
                 width={100}
                 height={100}
                 style={{
@@ -128,6 +134,7 @@ function AboutUS() {
             </div>
             {isSmallDevice ? (
               <Image
+                alt="image"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
                 src="/assets/Patient intake step 2-1 1.png"
                 width={500}
@@ -152,6 +159,7 @@ function AboutUS() {
           >
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <Image
+                alt="image"
                 width={100}
                 height={100}
                 style={{
@@ -163,6 +171,7 @@ function AboutUS() {
                 src="/ellipse/Ellipse 53.png"
               />
               <Image
+                alt="image"
                 width={100}
                 height={100}
                 style={{
@@ -214,6 +223,7 @@ function AboutUS() {
             </div>
 
             <Image
+              alt="image"
               style={{ borderRadius: "25%" }}
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center"
               src="/assets/ON call 1.png"
@@ -224,6 +234,7 @@ function AboutUS() {
               ""
             ) : (
               <Image
+                alt="image"
                 width={140}
                 height={140}
                 src="/assets/Group 238143.png"
@@ -235,6 +246,7 @@ function AboutUS() {
               />
             )}
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{

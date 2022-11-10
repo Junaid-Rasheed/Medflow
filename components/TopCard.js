@@ -63,6 +63,7 @@ function TopCard() {
           </button>
           <Image
             width={100}
+            alt="image"
             height={100}
             style={{
               position: "absolute",
@@ -75,6 +76,7 @@ function TopCard() {
           />
           <Image
             width={100}
+            alt="image"
             height={100}
             style={{
               position: "absolute",
@@ -87,6 +89,7 @@ function TopCard() {
           />
           <Image
             width={100}
+            alt="image"
             height={100}
             style={{
               position: "absolute",
@@ -102,6 +105,7 @@ function TopCard() {
       {isSmallDevice ? (
         <Image
           width={900}
+          alt="image"
           height={900}
           style={{
             position: "absolute",
@@ -116,6 +120,7 @@ function TopCard() {
       ) : (
         <Image
           width={1000}
+          alt="image"
           height={1000}
           style={{
             position: "absolute",

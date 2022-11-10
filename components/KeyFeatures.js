@@ -22,6 +22,7 @@ function KeyFeatures() {
       <section className="text-gray-600 body-font overflow-hidden">
         <Image
           width={100}
+          alt="image"
           height={100}
           style={{
             position: "absolute",
@@ -45,6 +46,7 @@ function KeyFeatures() {
           <Image
             width={100}
             height={100}
+            alt="image"
             style={{
               position: "absolute",
               width: "2%",
@@ -55,6 +57,7 @@ function KeyFeatures() {
           />
           <Image
             width={100}
+            alt="image"
             height={100}
             style={{
               position: "absolute",
@@ -71,11 +74,13 @@ function KeyFeatures() {
               <Image
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
                 src="/assets/maxresdefault 1.png"
+                alt="image"
                 width={500}
                 height={400}
               />
             )}
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{
@@ -87,6 +92,7 @@ function KeyFeatures() {
               src="/ellipse/Ellipse 56.png"
             />
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{
@@ -127,6 +133,7 @@ function KeyFeatures() {
               <Image
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
                 src="/assets/maxresdefault 1.png"
+                alt="image"
                 width={500}
                 height={400}
               />
@@ -267,6 +274,7 @@ function KeyFeatures() {
             ) : (
               <Image
                 style={{ borderRadius: "18%" }}
+                alt="image"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
                 src="/assets/ON call (1) 1.png"
                 width={500}
@@ -275,6 +283,7 @@ function KeyFeatures() {
             )}
             <Image
               width={100}
+              alt="image"
               height={100}
               style={{
                 position: "absolute",
@@ -286,6 +295,7 @@ function KeyFeatures() {
             />
             <Image
               width={100}
+              alt="image"
               height={100}
               style={{
                 position: "absolute",
@@ -327,6 +337,7 @@ function KeyFeatures() {
             {isSmallDevice ? (
               <Image
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+                alt="image"
                 src="/assets/ON call (1) 1.png"
                 width={500}
                 height={400}
@@ -335,6 +346,7 @@ function KeyFeatures() {
               ""
             )}
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{
@@ -348,6 +360,7 @@ function KeyFeatures() {
             <Image
               width={100}
               height={100}
+              alt="image"
               style={{
                 position: "absolute",
                 width: "1%",
@@ -401,12 +414,14 @@ function KeyFeatures() {
             <Image
               style={{ borderRadius: "23%" }}
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
+              alt="image"
               src="/assets/Patient intake step 2 (1) 1.png"
               width={500}
               height={500}
             />
             <Image
               width={100}
+              alt="image"
               height={100}
               style={{
                 position: "absolute",
@@ -417,6 +432,7 @@ function KeyFeatures() {
               src="/ellipse/Ellipse 64.png"
             />
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{
@@ -429,6 +445,7 @@ function KeyFeatures() {
             />
             <Image
               width={100}
+              alt="image"
               height={100}
               style={{
                 position: "absolute",
@@ -440,6 +457,7 @@ function KeyFeatures() {
             />
             <Image
               width={100}
+              alt="image"
               height={100}
               style={{
                 position: "absolute",

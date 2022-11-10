@@ -31,6 +31,7 @@ function OurTeam() {
       >
         <Image
           width={100}
+          alt="image"
           height={100}
           style={{
             position: "absolute",
@@ -42,6 +43,7 @@ function OurTeam() {
         />
         <Image
           width={100}
+          alt="image"
           height={100}
           style={{
             position: "absolute",
@@ -53,6 +55,7 @@ function OurTeam() {
         />
         <Image
           width={100}
+          alt="image"
           height={100}
           style={{
             position: "absolute",
@@ -64,6 +67,7 @@ function OurTeam() {
         />
         <Image
           width={100}
+          alt="image"
           height={100}
           style={{
             position: "absolute",
@@ -74,6 +78,7 @@ function OurTeam() {
           src="/ellipse/Ellipse 53.png"
         />
         <Image
+          alt="image"
           width={100}
           height={100}
           style={{
@@ -86,6 +91,7 @@ function OurTeam() {
         />
         <Image
           width={100}
+          alt="image"
           height={100}
           style={{
             position: "absolute",
@@ -97,6 +103,7 @@ function OurTeam() {
         />
         <Image
           width={100}
+          alt="image"
           height={100}
           style={{
             position: "absolute",
@@ -107,6 +114,7 @@ function OurTeam() {
           src="/ellipse/Ellipse 53.png"
         />
         <Image
+          alt="image"
           width={100}
           height={100}
           style={{
@@ -118,6 +126,7 @@ function OurTeam() {
           src="/ellipse/Ellipse 54.png"
         />
         <Image
+          alt="image"
           width={100}
           height={100}
           style={{

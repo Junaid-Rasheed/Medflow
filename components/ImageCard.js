@@ -8,6 +8,7 @@ const ImageCard = (props) => {
         <div className="h-screen relative">
           <Image
             width={10000}
+            alt="image"
             height={10000}
             style={{ filter: "brightness(0.8)" }}
             className="w-screen h-screen aspect-video object-cover z-0 absolute top-0 left-0"

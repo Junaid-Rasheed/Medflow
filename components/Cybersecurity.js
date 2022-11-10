@@ -29,6 +29,7 @@ function Cybersecurity() {
               Cybersecurity
             </h2>
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{
@@ -67,6 +68,7 @@ function Cybersecurity() {
               </p>
             )}
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{
@@ -77,6 +79,7 @@ function Cybersecurity() {
               src="/ellipse/Ellipse 60.png"
             />
             <Image
+              alt="image"
               width={100}
               height={100}
               style={{
@@ -92,6 +95,7 @@ function Cybersecurity() {
       </ImageCard>
       {isSmallDevice ? (
         <Image
+          alt="image"
           width={1000}
           height={1000}
           style={{
@@ -104,6 +108,7 @@ function Cybersecurity() {
         />
       ) : (
         <Image
+          alt="image"
           width={1000}
           height={1000}
           style={{
@@ -116,6 +121,7 @@ function Cybersecurity() {
         />
       )}
       <Image
+        alt="image"
         width={100}
         height={100}
         style={{
@@ -127,6 +133,7 @@ function Cybersecurity() {
         src="/ellipse/Ellipse 56.png"
       />
       <Image
+        alt="image"
         width={100}
         height={100}
         style={{
@@ -138,6 +145,7 @@ function Cybersecurity() {
         src="/ellipse/Ellipse 60.png"
       />
       <Image
+        alt="image"
         width={100}
         height={100}
         style={{
@@ -150,6 +158,7 @@ function Cybersecurity() {
       />
       <Image
         width={100}
+        alt="image"
         height={100}
         style={{
           position: "absolute",
@@ -160,6 +169,7 @@ function Cybersecurity() {
         src="/ellipse/Ellipse 64.png"
       />
       <Image
+        alt="image"
         width={100}
         height={100}
         style={{

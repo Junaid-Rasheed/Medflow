@@ -149,7 +149,12 @@ function Footer() {
           <div class="container px-48 my-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
               <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                <Image width={170} height={170} src="/assets/logo.png" />
+                <Image
+                  alt="image"
+                  width={170}
+                  height={170}
+                  src="/assets/logo.png"
+                />
               </a>
               <p class="my-8 text-base text-white">
                 30 N Gloud St Ste R <br /> Sheridan, WY 82801
@@ -322,6 +327,7 @@ function Footer() {
                         }}
                       />
                       <Image
+                        alt="image"
                         width={100}
                         height={100}
                         style={{ filter: "opacity(0.5)" }}
