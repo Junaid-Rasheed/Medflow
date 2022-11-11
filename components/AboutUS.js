@@ -63,13 +63,13 @@ function AboutUS() {
                 height={100}
                 style={{
                   position: "absolute",
-                  width: "1%",
-                  bottom: "-33%",
+                  width: isSmallDevice ? "3%" : "1%",
+                  bottom: isSmallDevice ? "-13%" : "-33%",
                   left: "14%",
                 }}
                 src="/ellipse/Ellipse 53.png"
               />
-              <Image
+              {/* <Image
                 alt="image"
                 width={100}
                 height={100}
@@ -80,7 +80,7 @@ function AboutUS() {
                   left: "49%",
                 }}
                 src="/ellipse/Ellipse 64.png"
-              />
+              /> */}
 
               <h2
                 style={{ color: "#bb2b92" }}
@@ -115,11 +115,11 @@ function AboutUS() {
                   position: "absolute",
                   width: "3%",
                   left: "12%",
-                  bottom: "-85%",
+                  bottom: isSmallDevice ? " -90%" : "-85%",
                 }}
                 src="/ellipse/Ellipse 56-1.png"
               />
-              <Image
+              {/* <Image
                 alt="image"
                 width={100}
                 height={100}
@@ -130,7 +130,7 @@ function AboutUS() {
                   bottom: "-84%",
                 }}
                 src="/ellipse/Ellipse 53.png"
-              />
+              /> */}
             </div>
             {isSmallDevice ? (
               <Image

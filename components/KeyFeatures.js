@@ -52,7 +52,7 @@ function KeyFeatures() {
               position: "absolute",
               width: "2%",
               left: "48%",
-              top: "24%",
+              top: isSmallDevice ? "20%" : "24%",
             }}
             src="/ellipse/Ellipse 64.png"
           />

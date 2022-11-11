@@ -142,7 +142,7 @@ function Footer() {
 
       <footer
         style={{
-          height: "70vh",
+          height: isSmallDevice ? "55vh" : "70vh",
           backgroundImage: "linear-gradient( #552788, #1e1e2d)",
         }}
         class="text-gray-600 pt-32 body-font"
