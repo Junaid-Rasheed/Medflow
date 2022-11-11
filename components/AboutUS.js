@@ -224,7 +224,7 @@ function AboutUS() {
 
             <Image
               alt="image"
-              style={{ borderRadius: "20%" }}
+              style={{ borderRadius: "12%" }}
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center"
               src="/assets/ON call 1.png"
               width={500}

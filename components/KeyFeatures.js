@@ -31,6 +31,109 @@ function KeyFeatures() {
           src="/ellipse/Ellipse 37.png"
         />
         <div
+          className={
+            isSmallDevice
+              ? "container px-5 pb-20 mx-auto"
+              : "container px-5 py-20 2xl:pt-32 mx-auto"
+          }
+        >
+          <p
+            style={{ color: "#222a4c" }}
+            className="text-center pb-10 2xl:text-5xl text-4xl title-font font-bold mb-1"
+          >
+            Key Features
+          </p>
+          <div
+            style={{ position: "relative" }}
+            className="lg:w-4/5 mx-auto flex flex-wrap"
+          >
+            <div className="2xl:pr-10 lg:w-1/2 w-full  lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <h2
+                style={{ color: "#bb2b92" }}
+                className="text-sm font-medium title-font 2xl:text-xl  tracking-widest"
+              >
+                {data
+                  ? data.map((obj) => obj.attributes.tag)[0]
+                  : "  Identity Verification"}
+              </h2>
+              <h1
+                style={{ color: "#222a4c" }}
+                className={
+                  isSmallDevice
+                    ? "text-3xl title-font font-bold mb-1"
+                    : "text-5xl title-font font-bold mb-1"
+                }
+              >
+                {data
+                  ? data.map((obj) => obj.attributes.title)[0]
+                  : " Secure Biometric Authentication"}
+              </h1>
+
+              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-xl">
+                {data
+                  ? data.map((obj) => obj.attributes.description)[0]
+                  : "  Patient Identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
+              </p>
+            </div>
+            <Image
+              // style={{ borderRadius: "12%" }}
+              className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+              alt="image"
+              src="/assets/maxresdefault 1.png"
+              width={500}
+              height={500}
+            />
+            <Image
+              width={100}
+              alt="image"
+              height={100}
+              style={{
+                position: "absolute",
+                width: "2%",
+                right: "-2%",
+                top: "-1%",
+              }}
+              src="/ellipse/Ellipse 64.png"
+            />
+            <Image
+              alt="image"
+              width={100}
+              height={100}
+              style={{
+                position: "absolute",
+                width: "1%",
+                right: "49%",
+                top: "3%",
+              }}
+              src="/ellipse/Ellipse 55.png"
+            />
+            <Image
+              width={100}
+              alt="image"
+              height={100}
+              style={{
+                position: "absolute",
+                width: "3%",
+                right: "-2%",
+                bottom: "3%",
+              }}
+              src="/ellipse/Ellipse 58.png"
+            />
+            <Image
+              width={100}
+              alt="image"
+              height={100}
+              style={{
+                position: "absolute",
+                width: "1%",
+                right: "17%",
+                bottom: "6%",
+              }}
+              src="/ellipse/Ellipse 55.png"
+            />
+          </div>
+        </div>
+        {/* <div
           style={{ position: "relative" }}
           className={
             isSmallDevice
@@ -144,7 +247,7 @@ function KeyFeatures() {
               ""
             )}
           </div>
-        </div>
+        </div> */}
 
         {isSmallDevice ? (
           ""
@@ -289,10 +392,11 @@ function KeyFeatures() {
               " "
             ) : (
               <Image
-                style={{ borderRadius: "12%" }}
+                // style={{ borderRadius: "12%" }}
                 alt="image"
-                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
-                src="/assets/ON call (1) 1.png"
+                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+                // src="/assets/ON call (1) 1.png"
+                src={"/assets/maxresdefault ps.png"}
                 width={500}
                 height={400}
               />
@@ -335,7 +439,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl title-font font-bold mb-1"
+                    : "text-5xl title-font font-bold mb-1"
                 }
               >
                 {" "}
@@ -399,7 +503,7 @@ function KeyFeatures() {
             style={{ position: "relative" }}
             className="lg:w-4/5 mx-auto flex flex-wrap"
           >
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="lg:w-1/2 2xl:pr-8 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
                 className="text-sm font-medium title-font 2xl:text-xl  tracking-widest"
@@ -413,7 +517,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl title-font font-bold mb-1"
+                    : "text-5xl  title-font font-bold mb-1"
                 }
               >
                 {data
@@ -428,12 +532,12 @@ function KeyFeatures() {
               </p>
             </div>
             <Image
-              style={{ borderRadius: "18%" }}
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
+              style={{ borderRadius: "14%" }}
+              className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
               alt="image"
-              src="/assets/Patient intake step 2 (1) 1.png"
+              src="/assets/Patient intake step 2 PS.png"
               width={500}
-              height={500}
+              height={400}
             />
             <Image
               width={100}

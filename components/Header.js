@@ -8,7 +8,7 @@ function Header() {
   const [navColor, setnavColor] = useState("transparent");
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setnavColor("#271a3e") : setnavColor("transparent");
-    window.scrollY > 10 ? setnavSize("4rem") : setnavSize("10rem");
+    window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
   };
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
@@ -35,8 +35,9 @@ function Header() {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/" className="flex lg:flex-[0.2] items-center">
           <Image
-            width={170}
-            height={200}
+            width={150}
+            height={270}
+            quality={100}
             src="/assets/logo.png"
             className="mr-3  h-10 lg:h-8 sm:h-9"
             alt="Medflow Logo"
