@@ -1,9 +1,35 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useState, useEffect } from "react";
+import { useMediaQuery } from "react-responsive";
+
 function Header() {
+  const [navSize, setnavSize] = useState("10rem");
+  const [navColor, setnavColor] = useState("transparent");
+  const listenScrollEvent = () => {
+    window.scrollY > 10 ? setnavColor("#271a3e") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavSize("4rem") : setnavSize("10rem");
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
+
+  const isSmallDevice = useMediaQuery({
+    query: "(max-width: 768px)",
+  });
+
   return (
     <nav
-      style={{ background: "transparent" }}
+      // style={{ background: "transparent" }}
+      style={{
+        backgroundColor: isSmallDevice ? "" : navColor,
+        height: isSmallDevice ? "" : navSize,
+        transition: isSmallDevice ? "" : "all 1s",
+        background: isSmallDevice ? "transparent" : "",
+      }}
       className="  border-none	 bg-transparent bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
     >
       <div className="container flex flex-wrap justify-between items-center mx-auto">
@@ -12,7 +38,7 @@ function Header() {
             width={170}
             height={200}
             src="/assets/logo.png"
-            className="mr-3 h-6 sm:h-9"
+            className="mr-3  h-10 lg:h-8 sm:h-9"
             alt="Medflow Logo"
           />
         </Link>
@@ -28,7 +54,7 @@ function Header() {
             <li>
               <Link
                 href="#home"
-                className=" block py-2 pr-4 pl-3 text-white rounded font-normal text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
+                className=" block py-2 pr-4 pl-3 text-white rounded font-normal text-base 2xl:text-lg md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
               >
                 Home
               </Link>
@@ -36,7 +62,7 @@ function Header() {
             <li>
               <Link
                 href="#about"
-                className=" block py-2 pr-4 pl-3 text-white rounded font-normal text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
+                className=" block py-2 pr-4 pl-3 text-white rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
                 aria-current="page"
               >
                 About Us
@@ -46,7 +72,7 @@ function Header() {
             <li>
               <Link
                 href="#keyfeature"
-                className=" block py-2 pr-4 pl-3 text-white rounded font-normal text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
+                className=" block py-2 pr-4 pl-3 text-white rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
               >
                 Key Features
               </Link>
@@ -54,7 +80,7 @@ function Header() {
             <li>
               <Link
                 href="#team"
-                className=" block py-2 pr-4 pl-3 text-white rounded font-normal text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
+                className=" block py-2 pr-4 pl-3 text-white rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
               >
                 Our Team
               </Link>
@@ -62,7 +88,7 @@ function Header() {
             <li>
               <Link
                 href="#contact"
-                className=" block py-2 pr-4 pl-3 text-white rounded font-normal text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
+                className=" block py-2 pr-4 pl-3 text-white rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
               >
                 Contact Us
               </Link>

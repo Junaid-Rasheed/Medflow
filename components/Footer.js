@@ -41,7 +41,7 @@ function Footer() {
       <div
         style={{
           position: "absolute",
-          top: "-140px",
+          top: isSmallDevice ? "-170px" : "-240px",
           background: "#f9eaf3",
           width: "65%",
           height: "77%",
@@ -53,11 +53,15 @@ function Footer() {
         <section class="text-gray-600 body-font relative">
           <div class="container px-5 py-4 mx-auto flex sm:flex-nowrap flex-wrap">
             <div
-              class={isSmallDevice ? "lg:w-1/2 px-6 " : "lg:w-1/2 px-6 py-16"}
+              class={
+                isSmallDevice
+                  ? "lg:w-1/2 px-6 "
+                  : "lg:w-1/2 2xl:w-2/3 px-6 py-16"
+              }
             >
               <h2
                 style={{ color: "#bb2b92" }}
-                class="title-font text-end pr-10 font-semibold  tracking-wide text-lg"
+                class="title-font text-end 2xl:text-3xl pr-10 2xl:pt-24  font-semibold  tracking-wide text-lg"
               >
                 medflow
               </h2>
@@ -66,7 +70,7 @@ function Footer() {
               ) : (
                 <p
                   style={{ color: "#222a4c" }}
-                  class="text-center mt-2  text-4xl title-font font-bold"
+                  class="text-center 2xl:ml-24 2xl:my-8 mt-2 2xl:text-6xl text-4xl title-font font-bold"
                 >
                   Stay in the know!
                 </p>
@@ -74,7 +78,7 @@ function Footer() {
               {isSmallDevice ? (
                 " "
               ) : (
-                <p className="text-center mt-5">
+                <p className="text-center 2xl:text-3xl mt-5 2xl:ml-24">
                   Want to stay up to date with the latest <br /> updates?
                   Subscribe to our newsletter!
                 </p>
@@ -82,7 +86,7 @@ function Footer() {
             </div>
             <form
               onSubmit={handleSubmit}
-              class="lg:w-1/2 md:w-1/2   md:ml-auto   md:mt-0"
+              class="lg:w-1/2 md:w-1/2 2xl:py-32  md:ml-auto   md:mt-0"
             >
               <div class="relative mb-2">
                 <input
@@ -125,7 +129,7 @@ function Footer() {
                 class={
                   isSmallDevice
                     ? "text-white w-full  border-0 py-2 px-6 focus:outline-none rounded text-lg"
-                    : "text-white   border-0 py-2 px-6 focus:outline-none rounded text-lg"
+                    : "text-white   border-0 py-2 px-6 focus:outline-none rounded text-lg 2xl:text-2xl"
                 }
               >
                 Subscribe
@@ -146,7 +150,7 @@ function Footer() {
         {isSmallDevice ? (
           " "
         ) : (
-          <div class="container px-48 my-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div class="container px-48 my-24 2xl:my-64 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
               <Link
                 href={""}
@@ -159,7 +163,7 @@ function Footer() {
                   src="/assets/logo.png"
                 />
               </Link>
-              <p class="my-8 text-base text-white">
+              <p class="my-8 text-base  2xl:text-xl text-white">
                 30 N Gloud St Ste R <br /> Sheridan, WY 82801
               </p>
 
@@ -224,7 +228,7 @@ function Footer() {
                 </Link> */}
               </span>
             </div>
-            <div class="flex-grow flex flex-wrap md:pl-20  md:mt-0 mt-10 md:text-left text-center">
+            <div class="flex-grow 2xl:text-xl flex flex-wrap md:pl-20  md:mt-0 mt-10 md:text-left text-center">
               <div class="lg:w-1/3 md:w-1/2 w-full px-4 pt-6">
                 <nav class="list-none ">
                   <li className="py-1">

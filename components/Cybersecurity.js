@@ -8,7 +8,10 @@ function Cybersecurity() {
     query: "(max-width: 768px)",
   });
   return (
-    <div className="overflow-x-hidden pt-14" style={{ position: "relative" }}>
+    <div
+      className="overflow-x-hidden lg:py-14"
+      style={{ position: "relative" }}
+    >
       <ImageCard
         className="flex flex-1 flex-col snap-x "
         src="/assets/Medflow Mid Section Background.png"
@@ -17,14 +20,14 @@ function Cybersecurity() {
           style={{ position: "relative" }}
           className={
             isSmallDevice
-              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3  py-20"
+              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-start pt-48 p-3  "
               : "h-2/5 absolute mt-4 left-0 flex flex-col justify-center  xl:mb-16"
           }
         >
           <div className="w-full  lg:py-6 mt-6 lg:mt-0">
             <h2
               style={{ color: "#bb2b92" }}
-              className="text-center text-lg font-medium title-font  tracking-widest"
+              className="text-center text-lg 2xl:text-xl font-medium title-font  tracking-widest"
             >
               Cybersecurity
             </h2>
@@ -44,7 +47,7 @@ function Cybersecurity() {
               className={
                 isSmallDevice
                   ? "text-center pt-6 text-4xl title-font text-white font-bold mb-1"
-                  : "text-center text-4xl title-font text-white py-4 font-bold mb-1"
+                  : "text-center text-4xl 2xl:text-5xl title-font text-white py-4 font-bold mb-1"
               }
             >
               Zero-Trust Data Architecture
@@ -61,7 +64,7 @@ function Cybersecurity() {
             ) : (
               <p
                 style={{ textAlignLast: "center" }}
-                className="text-gray-400  pr-6 pb-10 leading-relaxed"
+                className="text-gray-400 2xl:text-xl pr-6 pb-10 leading-relaxed"
               >
                 We provide HIPAA compliant,zero-trust data security vault and
                 tokenized <br /> encrypted data handoff
@@ -100,7 +103,7 @@ function Cybersecurity() {
           height={1000}
           style={{
             position: "absolute",
-            top: "393px",
+            top: "493px",
             width: "80%",
             left: "43px",
           }}
@@ -108,6 +111,7 @@ function Cybersecurity() {
         />
       ) : (
         <Image
+          className="2xl:mt-48 2xl:ml-24"
           alt="image"
           width={1000}
           height={1000}

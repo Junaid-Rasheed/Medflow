@@ -140,7 +140,7 @@ function OurTeam() {
         />
         <p
           style={{ color: "#222a4c" }}
-          className="text-center  text-4xl title-font font-bold mb-1 "
+          className="text-center 2xl:text-5xl text-4xl title-font font-bold mb-1 "
         >
           Our Team
         </p>
@@ -149,7 +149,7 @@ function OurTeam() {
             color: "#848484",
             textAlignLast: "center",
           }}
-          className="text-lg mb-8 w-3/4 text-center mx-auto"
+          className="text-lg leading-snug mb-8 w-3/4 text-center  2xl:text-xl 2xl:py-6 mx-auto"
         >
           We have brought industry leaders to merge artificial
           intelligence,digital security, and biometrics for indiviuals to
@@ -157,7 +157,7 @@ function OurTeam() {
           misidentification or fraud ensuring a secure provider-to-patient
           interaction.
         </p>
-        <div class="font-Yaro flex flex-wrap -m-4 pt-14 mb-48">
+        <div class="font-Yaro flex flex-wrap -m-4 pt-14 mb-64">
           <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
             <Link
               href={""}
@@ -175,13 +175,16 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl mt-7 font-bold"
+                class=" title-font text-xl 2xl:text-2xl mt-7 font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[0]
                   : "       Carl Carnagey"}
               </h2>
-              <p style={{ color: "#d7253f" }} class="mt-2  font-semibold	">
+              <p
+                style={{ color: "#d7253f" }}
+                class="mt-2 2xl:text-xl  font-semibold	"
+              >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[0]
                   : " Chief Executive Officer"}
@@ -205,13 +208,16 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl mt-2 font-bold"
+                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[1]
                   : "        Kawal Arora"}
               </h2>
-              <p style={{ color: "#d7253f" }} class="mt-2 font-semibold">
+              <p
+                style={{ color: "#d7253f" }}
+                class="mt-2 2xl:text-xl font-semibold"
+              >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[1]
                   : "Chief Technology Officer"}
@@ -235,13 +241,16 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl mt-2 font-bold"
+                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[2]
                   : "   Sunil Arora"}
               </h2>
-              <p style={{ color: "#d7253f" }} class="mt-2 font-semibold">
+              <p
+                style={{ color: "#d7253f" }}
+                class="mt-2 2xl:text-xl font-semibold"
+              >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[2]
                   : "  Chief Financial Officer"}
@@ -265,7 +274,7 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl  font-bold"
+                class=" title-font text-xl 2xl:text-2xl font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[3]
@@ -273,7 +282,7 @@ function OurTeam() {
               </h2>
               <p
                 style={{ color: "#d7253f" }}
-                class=" text-center mt-2 font-semibold"
+                class=" text-center mt-2 2xl:text-xl font-semibold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[3]
@@ -298,7 +307,7 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl mt-2 font-bold"
+                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[4]
@@ -306,7 +315,7 @@ function OurTeam() {
               </h2>
               <p
                 style={{ color: "#d7253f" }}
-                class=" text-center mt-2 font-semibold"
+                class=" text-center mt-2 2xl:text-xl font-semibold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[4]
@@ -331,7 +340,7 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl mt-2 font-bold"
+                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[5]
@@ -339,7 +348,7 @@ function OurTeam() {
               </h2>
               <p
                 style={{ color: "#d7253f" }}
-                class=" text-center mt-2 font-semibold"
+                class=" text-center mt-2 2xl:text-xl font-semibold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[5]
@@ -364,7 +373,7 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl mt-2 font-bold"
+                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[6]
@@ -372,7 +381,7 @@ function OurTeam() {
               </h2>
               <p
                 style={{ color: "#d7253f" }}
-                class=" text-center mt-2 font-semibold"
+                class=" text-center mt-2 2xl:text-xl font-semibold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[6]
@@ -397,7 +406,7 @@ function OurTeam() {
             <div>
               <h2
                 style={{ color: "#222a4c" }}
-                class=" title-font text-xl mt-2 font-bold"
+                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.name)[7]
@@ -405,7 +414,7 @@ function OurTeam() {
               </h2>
               <p
                 style={{ color: "#d7253f" }}
-                class=" text-center mt-2 font-semibold"
+                class=" text-center mt-2 2xl:text-xl font-semibold"
               >
                 {data
                   ? data.map((obj) => obj.attributes.designation)[7]

@@ -30,12 +30,12 @@ function TopCard() {
         <div
           className={
             isSmallDevice
-              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-10 py-28"
+              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48 ml-6 py-28"
               : "h-2/5 absolute mt-16  left-0 flex flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
           }
         >
           {isSmallDevice ? (
-            <p className=" w-full font-bold md:w-1 text-xl pt-3 text-white ">
+            <p className=" w-full font-bold md:w-1 text-xl  pt-3 text-white ">
               {data
                 ? data.map((obj) => obj.attributes.text1)
                 : "Build your future of telemedicine security with Medflow"}{" "}
@@ -43,7 +43,7 @@ function TopCard() {
           ) : (
             <p
               style={{ textAlignLast: "center" }}
-              className="font-bold lg:text-4xl  w-3/5  pt-3 text-white"
+              className="font-bold lg:text-4xl 2xl:text-5xl 2xl:ml-48 w-3/5  pt-3 text-white"
             >
               {data
                 ? data.map((obj) => obj.attributes.text1)
@@ -55,7 +55,7 @@ function TopCard() {
               width: isSmallDevice ? "75%" : "25%",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
-            class="flex flex-row hover:bg-blue-700 mt-4 lg:ml-32 text-white font-bold py-2 px-4 rounded"
+            class="flex 2xl:mt-20  2xl:text-2xl flex-row hover:bg-blue-700 mt-4 lg:ml-32 2xl:ml-72 text-white font-bold py-2 px-4 rounded"
           >
             {data
               ? data.map((obj) => obj.attributes.buttonText)
@@ -67,8 +67,8 @@ function TopCard() {
             height={100}
             style={{
               position: "absolute",
-              width: "2%",
-              top: "73%",
+              width: isSmallDevice ? "3%" : "2%",
+              top: isSmallDevice ? "93%" : "73%",
               right: "97%",
               // right: "33%",
             }}
@@ -80,8 +80,8 @@ function TopCard() {
             height={100}
             style={{
               position: "absolute",
-              width: "2%",
-              top: "60%",
+              width: isSmallDevice ? "3%" : "2%",
+              top: isSmallDevice ? "50%" : "60%",
               left: "57%",
               // right: "33%",
             }}
@@ -122,6 +122,7 @@ function TopCard() {
           width={1000}
           alt="image"
           height={1000}
+          className="2xl:mt-64  2xl:ml-32 "
           style={{
             position: "absolute",
             top: "253px",

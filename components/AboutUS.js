@@ -35,12 +35,12 @@ function AboutUS() {
           className={
             isSmallDevice
               ? "container px-5  mx-auto"
-              : "container px-5 py-24 mx-auto"
+              : "container px-5 py-24 2xl:py-10 mx-auto"
           }
         >
           <p
             style={{ color: "#222a4c" }}
-            className="text-center pb-20 text-4xl title-font font-bold mb-1"
+            className="text-center 2xl:text-5xl pb-20 text-4xl title-font font-bold mb-1"
           >
             What We Do
           </p>
@@ -84,7 +84,7 @@ function AboutUS() {
 
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font tracking-widest"
+                className="text-sm 2xl:text-xl font-medium title-font tracking-widest"
               >
                 {" "}
                 {data ? data.map((obj) => obj.attributes.tag)[0] : "  Security"}
@@ -94,7 +94,7 @@ function AboutUS() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl title-font font-bold mb-1"
+                    : "text-4xl  title-font font-bold mb-1"
                 }
               >
                 {data
@@ -102,7 +102,7 @@ function AboutUS() {
                   : "  Future of Telemedicine Security"}
               </h1>
 
-              <p className="leading-snug text-gray-500 leading-relaxed pt-6">
+              <p className="leading-snug text-gray-500 2xl:text-xl leading-relaxed pt-6">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient Identity using next generation zero-trust security architecture."}
@@ -184,7 +184,7 @@ function AboutUS() {
               />
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font  tracking-widest"
+                className="text-sm 2xl:text-xl font-medium title-font  tracking-widest"
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[1]
@@ -195,7 +195,7 @@ function AboutUS() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl title-font font-bold mb-1"
+                    : "text-4xl title-font font-bold mb-1 "
                 }
               >
                 {data
@@ -209,7 +209,7 @@ function AboutUS() {
                     : " It boasts a suite of Computer vision-based features that allow providers to review and legally sign medical and legal documentation live with the patient.Issue prescriptions and capture patient vitals like heart rate,blood pressure, breathing and stress indicators all without special hardware or equipment. Just the use of the patient's computer or mobile phone camera."}
                 </p>
               ) : (
-                <p className="text-gray-500  pt-6 pr-10 leading-snug">
+                <p className="text-gray-500  pt-6 pr-10 leading-snug 2xl:text-xl">
                   It boasts a suite of Computer vision-based features that allow
                   providers to review and legally sign medical and legal
                   documentation live with the patient.Issue prescriptions and
@@ -224,7 +224,7 @@ function AboutUS() {
 
             <Image
               alt="image"
-              style={{ borderRadius: "25%" }}
+              style={{ borderRadius: "20%" }}
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center"
               src="/assets/ON call 1.png"
               width={500}

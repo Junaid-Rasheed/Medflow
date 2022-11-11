@@ -40,7 +40,7 @@ function KeyFeatures() {
         >
           <p
             style={{ color: "#222a4c" }}
-            className="text-center pb-10 text-4xl title-font font-bold mb-1"
+            className="text-center pb-10 2xl:text-5xl text-4xl title-font font-bold mb-1"
           >
             Key Features
           </p>
@@ -107,9 +107,11 @@ function KeyFeatures() {
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font tracking-widest"
+                className="text-sm font-medium title-font tracking-widest 2xl:text-xl"
               >
-                {data ? data.map((obj) => obj.attributes.tag)[0] : "  Identity"}
+                {data
+                  ? data.map((obj) => obj.attributes.tag)[0]
+                  : "  Identity Verification"}
               </h2>
               <h1
                 style={{ color: "#222a4c" }}
@@ -124,7 +126,7 @@ function KeyFeatures() {
                   : " Secure Biometric Authentication"}
               </h1>
 
-              <p className="leading-snug text-gray-500 leading-relaxed pt-6">
+              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-xl">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "  Patient Identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
@@ -167,11 +169,14 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold"
+                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
                     >
                       Full Identity Management
                     </h2>
-                    <p style={{ color: "#848484" }} class="mt-4 text-sm">
+                    <p
+                      style={{ color: "#848484" }}
+                      class="mt-4 text-sm 2xl:text-lg"
+                    >
                       Full identity management suirte with innovative chain of
                       custody model.
                     </p>
@@ -194,11 +199,14 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold"
+                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
                     >
                       Match Speed
                     </h2>
-                    <p style={{ color: "#848484" }} class="mt-4 text-sm">
+                    <p
+                      style={{ color: "#848484" }}
+                      class="mt-4 text-sm 2xl:text-lg"
+                    >
                       100ms face match speed.
                     </p>
                   </div>
@@ -220,11 +228,14 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold"
+                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
                     >
                       Dark Complexion Accuracy
                     </h2>
-                    <p style={{ color: "#848484" }} class="mt-4 text-sm">
+                    <p
+                      style={{ color: "#848484" }}
+                      class="mt-4 text-sm 2xl:text-lg"
+                    >
                       99.80% faces of color and dark complexion accuracy.
                     </p>
                   </div>
@@ -246,13 +257,13 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold"
+                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
                     >
                       Anti-spoofing
                     </h2>
                     <p
                       style={{ color: "#848484" }}
-                      class=" text-center mt-4 text-sm"
+                      class=" text-center mt-4 text-sm 2xl:text-lg"
                     >
                       Face match liveness for anti-spoofing
                     </p>
@@ -278,7 +289,7 @@ function KeyFeatures() {
               " "
             ) : (
               <Image
-                style={{ borderRadius: "18%" }}
+                style={{ borderRadius: "12%" }}
                 alt="image"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
                 src="/assets/ON call (1) 1.png"
@@ -313,7 +324,7 @@ function KeyFeatures() {
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font tracking-widest"
+                className="text-sm font-medium title-font tracking-widest 2xl:text-xl"
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[1]
@@ -333,7 +344,7 @@ function KeyFeatures() {
                   : "  Patient Vitals Captured using Computer Vision"}
               </h1>
 
-              <p className="leading-snug text-gray-500 leading-relaxed pt-6">
+              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-xl">
                 {data
                   ? data.map((obj) => obj.attributes.description)[1]
                   : "  We are able to capture patient vitals like blood pressure, breathing, heart rate, and stress indicators using the patient's computer or phone camera with highly accurate results.All without having to connect to any hardware devices or monitoring system."}
@@ -391,7 +402,7 @@ function KeyFeatures() {
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font  tracking-widest"
+                className="text-sm font-medium title-font 2xl:text-xl  tracking-widest"
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[2]
@@ -410,14 +421,14 @@ function KeyFeatures() {
                   : "    Robust Chain of Custody Solution"}
               </h1>
 
-              <p className="leading-snug text-gray-500 pt-6 pr-6 leading-relaxed">
+              <p className="leading-snug text-gray-500 pt-6 pr-6 2xl:text-xl leading-relaxed">
                 {data
                   ? data.map((obj) => obj.attributes.description)[2]
                   : " Our Innovative approach to chain of custody allows for contracts, releases, waivers, and other legal and medical forms to be signed and looked over in real time using facial recognition,voice biometrics and facial recognition liveness verification. This record is cryptographically appended to the digital signature document or access credential chain for entry to a secure site or portal."}
               </p>
             </div>
             <Image
-              style={{ borderRadius: "23%" }}
+              style={{ borderRadius: "18%" }}
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
               alt="image"
               src="/assets/Patient intake step 2 (1) 1.png"
