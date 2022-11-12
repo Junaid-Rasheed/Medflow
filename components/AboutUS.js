@@ -51,7 +51,7 @@ function AboutUS() {
               <Image
                 alt="image"
                 className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
-                src="/assets/Patient intake step 2-1 1.png"
+                src="/assets/rounds/Patient intake step 2 (4).png"
                 width={500}
                 height={400}
               />
@@ -123,8 +123,8 @@ function AboutUS() {
             {isSmallDevice ? (
               <Image
                 alt="image"
-                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
-                src="/assets/Patient intake step 2-1 1.png"
+                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
+                src="/assets/rounds/Patient intake step 2 (4).png"
                 width={500}
                 height={400}
               />
@@ -212,9 +212,8 @@ function AboutUS() {
 
             <Image
               alt="image"
-              style={{ borderRadius: "12%" }}
               className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center"
-              src="/assets/ON call 1.png"
+              src="/assets/rounds/ON call (4).png"
               width={500}
               height={500}
             />

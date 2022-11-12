@@ -77,9 +77,9 @@ function KeyFeatures() {
             </div>
             <Image
               // style={{ borderRadius: "12%" }}
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+              className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
               alt="image"
-              src="/assets/maxresdefault 1.png"
+              src="/assets/rounds/960x0 1.png"
               width={500}
               height={500}
             />
@@ -394,9 +394,9 @@ function KeyFeatures() {
               <Image
                 // style={{ borderRadius: "12%" }}
                 alt="image"
-                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center"
                 // src="/assets/ON call (1) 1.png"
-                src={"/assets/maxresdefault ps.png"}
+                src={"/assets/rounds/maxresdefault ps 1.png"}
                 width={500}
                 height={400}
               />
@@ -456,9 +456,9 @@ function KeyFeatures() {
             </div>
             {isSmallDevice ? (
               <Image
-                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
                 alt="image"
-                src="/assets/ON call (1) 1.png"
+                src="/assets/rounds/maxresdefault ps 1.png"
                 width={500}
                 height={400}
               />
@@ -532,10 +532,9 @@ function KeyFeatures() {
               </p>
             </div>
             <Image
-              style={{ borderRadius: "14%" }}
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+              className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center "
               alt="image"
-              src="/assets/Patient intake step 2 PS.png"
+              src="/assets/rounds/Patient intake step 2 (5).png"
               width={500}
               height={400}
             />
