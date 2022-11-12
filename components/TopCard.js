@@ -30,7 +30,7 @@ function TopCard() {
         <div
           className={
             isSmallDevice
-              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48 ml-6 py-28"
+              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end py-36  ml-6 "
               : "h-2/5 absolute mt-16  left-0 flex flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
           }
         >
@@ -55,7 +55,7 @@ function TopCard() {
               width: isSmallDevice ? "75%" : "25%",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
-            class="flex 2xl:mt-20  2xl:text-2xl flex-row hover:bg-blue-700 mt-4 lg:ml-32 2xl:ml-72 text-white font-bold py-2 px-4 rounded"
+            class="flex 2xl:mt-20  2xl:text-2xl  flex-row hover:bg-blue-700 mt-4 lg:ml-32 2xl:ml-96 text-white font-bold py-2 px-4 rounded"
           >
             {data
               ? data.map((obj) => obj.attributes.buttonText)
@@ -122,7 +122,7 @@ function TopCard() {
           width={1000}
           alt="image"
           height={1000}
-          className="2xl:mt-64  2xl:ml-32 "
+          className="2xl:mt-64  2xl:ml-56 "
           style={{
             position: "absolute",
             top: "253px",

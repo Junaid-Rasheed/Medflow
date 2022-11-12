@@ -20,7 +20,7 @@ function KeyFeatures() {
 
   return (
     <div id="keyfeature">
-      <section className="text-gray-600 body-font overflow-hidden">
+      <section className="text-gray-600  body-font overflow-hidden">
         <Image
           width={100}
           alt="image"
@@ -34,7 +34,7 @@ function KeyFeatures() {
           className={
             isSmallDevice
               ? "container px-5 pb-20 mx-auto"
-              : "container px-5 py-20 2xl:pt-32 mx-auto"
+              : "container px-5 2xl:pt-56 py-20  mx-auto"
           }
         >
           <p

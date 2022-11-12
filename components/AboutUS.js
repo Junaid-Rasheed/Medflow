@@ -40,7 +40,7 @@ function AboutUS() {
         >
           <p
             style={{ color: "#222a4c" }}
-            className="text-center 2xl:text-5xl pb-20 text-4xl title-font font-bold mb-1"
+            className="text-center  2xl:text-5xl pb-20 text-4xl title-font font-bold mb-1"
           >
             What We Do
           </p>
@@ -69,18 +69,6 @@ function AboutUS() {
                 }}
                 src="/ellipse/Ellipse 53.png"
               />
-              {/* <Image
-                alt="image"
-                width={100}
-                height={100}
-                style={{
-                  position: "absolute",
-                  width: "2%",
-                  bottom: "-33%",
-                  left: "49%",
-                }}
-                src="/ellipse/Ellipse 64.png"
-              /> */}
 
               <h2
                 style={{ color: "#bb2b92" }}
