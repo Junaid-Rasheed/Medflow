@@ -34,7 +34,7 @@ function KeyFeatures() {
           className={
             isSmallDevice
               ? "container px-5 pb-20 mx-auto"
-              : "container px-5 2xl:pt-56 py-20  mx-auto"
+              : "container px-5  py-20  mx-auto"
           }
         >
           <p

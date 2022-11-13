@@ -111,14 +111,14 @@ function Cybersecurity() {
         />
       ) : (
         <Image
-          className="2xl:mt-48 2xl:ml-24"
+          className="2xl:mt-10 2xl:ml-28"
           alt="image"
           width={1000}
           height={1000}
           style={{
             position: "absolute",
             top: "273px",
-            width: "60%",
+            width: "55%",
             left: "263px",
           }}
           src="/assets/Group 548.png"

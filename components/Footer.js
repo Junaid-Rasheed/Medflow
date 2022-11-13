@@ -56,12 +56,12 @@ function Footer() {
               class={
                 isSmallDevice
                   ? "lg:w-1/2 px-6 "
-                  : "lg:w-1/2 2xl:w-2/3 px-6 py-16"
+                  : "lg:w-1/2 2xl:w-1/2 px-6 py-16"
               }
             >
               <h2
                 style={{ color: "#bb2b92" }}
-                class="title-font text-end 2xl:text-3xl pr-10 2xl:pt-24  font-semibold  tracking-wide text-lg"
+                class="title-font text-end 2xl:text-3xl pr-10 2xl:pt-14   font-semibold  tracking-wide text-lg"
               >
                 medflow
               </h2>
@@ -70,7 +70,7 @@ function Footer() {
               ) : (
                 <p
                   style={{ color: "#222a4c" }}
-                  class="text-center 2xl:ml-24 2xl:my-8 mt-2 2xl:text-6xl text-4xl title-font font-bold"
+                  class="text-center 2xl:ml-24 2xl:my-6 mt-2 2xl:text-5xl text-4xl title-font font-bold"
                 >
                   Stay in the know!
                 </p>
@@ -78,7 +78,10 @@ function Footer() {
               {isSmallDevice ? (
                 " "
               ) : (
-                <p className="text-center 2xl:text-3xl mt-5 2xl:ml-24">
+                <p
+                  style={{ color: "#848484" }}
+                  className="text-center 2xl:text-xl mt-5 2xl:ml-24"
+                >
                   Want to stay up to date with the latest <br /> updates?
                   Subscribe to our newsletter!
                 </p>
@@ -86,39 +89,88 @@ function Footer() {
             </div>
             <form
               onSubmit={handleSubmit}
-              class="lg:w-1/2 md:w-1/2 2xl:py-32  md:ml-auto   md:mt-0"
+              class="lg:w-1/2 md:w-1/2 2xl:pt-14  md:ml-auto   md:mt-0"
             >
               <div class="relative mb-2">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="name"
-                  value={name}
-                  onChange={handleChange}
-                  class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                />
+                {isSmallDevice ? (
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={name}
+                    onChange={handleChange}
+                    class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                ) : (
+                  <input
+                    style={{
+                      height: "60px",
+                      borderRadius: "17px",
+                      border: "7px solid white",
+                      backgroundColor: "#fefafc",
+                    }}
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={name}
+                    onChange={handleChange}
+                    class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                )}
               </div>
               <div class="relative mb-2">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="email"
-                  value={email}
-                  onChange={handleChange}
-                  class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                />
+                {isSmallDevice ? (
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    // placeholder="email"
+                    value={email}
+                    onChange={handleChange}
+                    class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                ) : (
+                  <input
+                    type="email"
+                    id="email"
+                    style={{
+                      height: "60px",
+                      borderRadius: "17px",
+                      border: "7px solid white",
+                      backgroundColor: "#fefafc",
+                    }}
+                    name="email"
+                    // placeholder="email"
+                    value={email}
+                    onChange={handleChange}
+                    class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                )}
               </div>
               <div class="relative mb-2">
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="message"
-                  value={message}
-                  onChange={handleChange}
-                  class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                ></textarea>
+                {isSmallDevice ? (
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={message}
+                    onChange={handleChange}
+                    class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                ) : (
+                  <textarea
+                    id="message"
+                    name="message"
+                    style={{
+                      height: "110px",
+                      borderRadius: "17px",
+                      border: "7px solid white",
+                      backgroundColor: "#fefafc",
+                    }}
+                    value={message}
+                    onChange={handleChange}
+                    class="border-none	w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                )}
               </div>
               <button
                 onClick={notify}

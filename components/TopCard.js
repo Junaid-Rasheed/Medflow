@@ -18,20 +18,17 @@ function TopCard() {
   }, []);
 
   return (
-    <div
-      id="home"
-      className="overflow-x-hidden "
-      style={{ position: "relative" }}
-    >
+    <div id="home" className="overflow-x-hidden ">
       <ImageCard
         className="flex flex-1 flex-col snap-x "
         src="/assets/Medflow Header Background.png"
       >
         <div
+          style={{ position: "relative" }}
           className={
             isSmallDevice
-              ? "h-1/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48 ml-6 py-28"
-              : "h-1/5 2xl:pt-56 absolute mt-16  left-0 flex flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
+              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48 ml-6 py-28"
+              : "h-2/5 2xl:pt-48 absolute mt-16  left-0 flex flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
           }
         >
           {isSmallDevice ? (
@@ -52,7 +49,7 @@ function TopCard() {
           )}
           <button
             style={{
-              width: isSmallDevice ? "75%" : "23%",
+              width: isSmallDevice ? "75%" : "22%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
@@ -123,7 +120,7 @@ function TopCard() {
           width={1000}
           alt="image"
           height={1000}
-          className="2xl:mt-64  2xl:ml-56 "
+          className="2xl:mt-48  2xl:ml-48 "
           style={{
             position: "absolute",
             top: "253px",

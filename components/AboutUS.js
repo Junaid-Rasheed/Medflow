@@ -40,7 +40,7 @@ function AboutUS() {
         >
           <p
             style={{ color: "#222a4c" }}
-            className="text-center  2xl:text-5xl pb-20 text-4xl title-font font-bold mb-1"
+            className="text-center  2xl:text-5xl 2xl:mt-24 pb-20 text-4xl title-font font-bold mb-1"
           >
             What We Do
           </p>
@@ -50,7 +50,7 @@ function AboutUS() {
             ) : (
               <Image
                 alt="image"
-                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
+                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center"
                 src="/assets/rounds/Patient intake step 2 (4).png"
                 width={500}
                 height={400}
