@@ -151,14 +151,13 @@ function OurTeam() {
           }}
           className="text-lg leading-snug mb-8 w-3/4 text-center  2xl:text-xl 2xl:py-6 mx-auto"
         >
-          We have brought industry leaders to merge artificial
-          intelligence,digital security, and biometrics for indiviuals to
-          self-authenticate, and secure data. We eliminate the chance of
-          misidentification or fraud ensuring a secure provider-to-patient
-          interaction.
+          We have brought industry leaders to merge artificial intelligence,
+          digital security, and biometrics for indiviuals to self-authenticate,
+          and secure data. We eliminate the chance of misidentification or fraud
+          ensuring a secure provider-to-patient interaction.
         </p>
         <div class="font-Yaro flex flex-wrap -m-4 pt-14 mb-64">
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
             <Link
               href={""}
               style={{ display: "flex", justifyContent: "center" }}
@@ -191,106 +190,7 @@ function OurTeam() {
               </p>
             </div>
           </div>
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link
-              href={""}
-              style={{ display: "flex", justifyContent: "center" }}
-              class="relative block m-0 rounded overflow-hidden"
-            >
-              <Image
-                width={200}
-                height={200}
-                alt="ecommerce"
-                class="object-center rounded-full"
-                src="/Team Pics/KawalArora.png"
-              />
-            </Link>
-            <div>
-              <h2
-                style={{ color: "#222a4c" }}
-                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.name)[1]
-                  : "        Kawal Arora"}
-              </h2>
-              <p
-                style={{ color: "#d7253f" }}
-                class="mt-2 2xl:text-xl font-semibold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.designation)[1]
-                  : "Chief Technology Officer"}
-              </p>
-            </div>
-          </div>
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link
-              href={""}
-              style={{ display: "flex", justifyContent: "center" }}
-              class="relative block m-0 rounded overflow-hidden"
-            >
-              <Image
-                width={200}
-                height={200}
-                alt="ecommerce"
-                class="object-center rounded-full"
-                src="/Team Pics/SunilArora.jpg"
-              />
-            </Link>
-            <div>
-              <h2
-                style={{ color: "#222a4c" }}
-                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.name)[2]
-                  : "   Sunil Arora"}
-              </h2>
-              <p
-                style={{ color: "#d7253f" }}
-                class="mt-2 2xl:text-xl font-semibold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.designation)[2]
-                  : "  Chief Financial Officer"}
-              </p>
-            </div>
-          </div>
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
-            <Link
-              href={""}
-              style={{ display: "flex", justifyContent: "center" }}
-              class="relative block m-0 rounded overflow-hidden"
-            >
-              <Image
-                width={200}
-                height={200}
-                alt="ecommerce"
-                class="object-center rounded-full"
-                src="/Team Pics/Bryant2BWHeadshot2.png"
-              />
-            </Link>
-            <div>
-              <h2
-                style={{ color: "#222a4c" }}
-                class=" title-font text-xl 2xl:text-2xl font-bold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.name)[3]
-                  : "Bryant Thornton"}
-              </h2>
-              <p
-                style={{ color: "#d7253f" }}
-                class=" text-center mt-2 2xl:text-xl font-semibold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.designation)[3]
-                  : "VP of Security & Compliance"}
-              </p>
-            </div>
-          </div>
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
             <Link
               style={{ display: "flex", justifyContent: "center" }}
               href={""}
@@ -323,7 +223,7 @@ function OurTeam() {
               </p>
             </div>
           </div>
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
             <Link
               style={{ display: "flex", justifyContent: "center" }}
               href={""}
@@ -356,7 +256,41 @@ function OurTeam() {
               </p>
             </div>
           </div>
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
+
+          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
+            <Link
+              href={""}
+              style={{ display: "flex", justifyContent: "center" }}
+              class="relative block m-0 rounded overflow-hidden"
+            >
+              <Image
+                width={200}
+                height={200}
+                alt="ecommerce"
+                class="object-center rounded-full"
+                src="/Team Pics/Bryant2BWHeadshot2.png"
+              />
+            </Link>
+            <div>
+              <h2
+                style={{ color: "#222a4c" }}
+                class=" title-font text-xl 2xl:text-2xl font-bold"
+              >
+                {data
+                  ? data.map((obj) => obj.attributes.name)[3]
+                  : "Bryant Thornton"}
+              </h2>
+              <p
+                style={{ color: "#d7253f" }}
+                class=" text-center mt-2 2xl:text-xl font-semibold"
+              >
+                {data
+                  ? data.map((obj) => obj.attributes.designation)[3]
+                  : "VP of Security & Compliance"}
+              </p>
+            </div>
+          </div>
+          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
             <Link
               style={{ display: "flex", justifyContent: "center" }}
               href={""}
@@ -389,7 +323,7 @@ function OurTeam() {
               </p>
             </div>
           </div>
-          <div class="text-center lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
             <Link
               href={""}
               style={{ display: "flex", justifyContent: "center" }}

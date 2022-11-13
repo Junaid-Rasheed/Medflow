@@ -72,7 +72,7 @@ function KeyFeatures() {
               <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-xl">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
-                  : "  Patient Identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
+                  : "  Patient identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
               </p>
             </div>
             <Image
@@ -528,7 +528,7 @@ function KeyFeatures() {
               <p className="leading-snug text-gray-500 pt-6 pr-6 2xl:text-xl leading-relaxed">
                 {data
                   ? data.map((obj) => obj.attributes.description)[2]
-                  : " Our Innovative approach to chain of custody allows for contracts, releases, waivers, and other legal and medical forms to be signed and looked over in real time using facial recognition,voice biometrics and facial recognition liveness verification. This record is cryptographically appended to the digital signature document or access credential chain for entry to a secure site or portal."}
+                  : " Our Innovative approach to chain of custody allows for contracts, releases, waivers, and other legal and medical forms to be signed and looked over in real time using facial recognition, voice biometrics and facial recognition liveness verification. This record is cryptographically appended to the digital signature document or access credential chain for entry to a secure site or portal."}
               </p>
             </div>
             <Image

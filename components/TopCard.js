@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import ImageCard from "./ImageCard";
@@ -40,7 +41,7 @@ function TopCard() {
           ) : (
             <p
               style={{ textAlignLast: "center" }}
-              className="font-bold lg:text-4xl 2xl:text-5xl 2xl:ml-48 w-3/5  pt-3 text-white"
+              className="font-bold lg:text-4xl 2xl:text-4xl 2xl:ml-64  w-3/5 2xl:w-2/5 pt-3 text-white"
             >
               {data
                 ? data.map((obj) => obj.attributes.text1)
@@ -49,15 +50,17 @@ function TopCard() {
           )}
           <button
             style={{
-              width: isSmallDevice ? "75%" : "22%",
+              width: isSmallDevice ? "75%" : "21%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
-            class="flex 2xl:mt-20   2xl:text-2xl text-sm flex-row hover:bg-blue-700 mt-4 lg:ml-32 2xl:ml-96 text-white font-bold py-2 px-4 rounded"
+            class="2xl:mt-20   2xl:text-2xl text-sm text-center cursore-pointer mt-4 2xl:left-64 lg:ml-32 2xl:ml-96 text-white py-2 px-4 rounded"
           >
-            {data
-              ? data.map((obj) => obj.attributes.buttonText)
-              : " Contact us for early access"}
+            <Link href={"#contact"}>
+              {data
+                ? data.map((obj) => obj.attributes.buttonText)
+                : " Contact us for early access"}
+            </Link>
           </button>
           <Image
             width={100}
@@ -101,34 +104,69 @@ function TopCard() {
       </ImageCard>
 
       {isSmallDevice ? (
-        <Image
-          width={900}
-          alt="image"
-          height={900}
+        // <Image
+        //   width={900}
+        //   alt="image"
+        //   height={900}
+        //   style={{
+        //     position: "absolute",
+        //     top: "120px",
+        //     width: "80%",
+        //     left: "36px",
+        //     borderRadius: "6%",
+        //     border: "6px solid white",
+        //   }}
+        //   src="/assets/Medflow UI (1) 1.png"
+        // />
+        <iframe
           style={{
             position: "absolute",
-            top: "120px",
+            top: "420px",
             width: "80%",
             left: "36px",
             borderRadius: "6%",
-            border: "6px solid white",
           }}
-          src="/assets/Medflow UI (1) 1.png"
-        />
+          width="360"
+          className="2xl:mt-48   2xl:ml-48 "
+          height="200"
+          src="https://www.youtube-nocookie.com/embed/jBZzEERWvFw?autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       ) : (
-        <Image
-          width={1000}
-          alt="image"
-          height={1000}
-          className="2xl:mt-48  2xl:ml-48 "
+        // <Image
+        //   width={1000}
+        //   alt="image"
+        //   height={1000}
+        //   className="2xl:mt-48  2xl:ml-48 "
+        //   style={{
+        //     position: "absolute",
+        //     top: "253px",
+        //     width: "37%",
+        //     left: "373px",
+        //   }}
+        //   src="/assets/topcard.png"
+        // />
+        <iframe
           style={{
             position: "absolute",
-            top: "253px",
+            top: "303px",
             width: "37%",
             left: "373px",
+            borderRadius: "15px",
+            border: "5px solid white",
           }}
-          src="/assets/topcard.png"
-        />
+          width="560"
+          className="2xl:mt-48   2xl:ml-48 "
+          height="350"
+          src="https://www.youtube-nocookie.com/embed/jBZzEERWvFw?autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       )}
     </div>
   );

@@ -315,14 +315,6 @@ function Footer() {
                       Our Team
                     </Link>
                   </li>
-                  <li className="py-1">
-                    <Link
-                      href="#contact"
-                      class="text-white hover:text-[#d7253f] cursor-pointer"
-                    >
-                      Contact Us
-                    </Link>
-                  </li>
                 </nav>
               </div>
               <div class="lg:w-1/3 md:w-1/2 w-full px-4 pt-6">
@@ -335,15 +327,15 @@ function Footer() {
                       About
                     </Link>
                   </li>
-                  <li className="py-1">
+                  {/* <li className="py-1">
                     <Link
                       href={""}
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       FAQ
                     </Link>
-                  </li>
-                  <li className="py-1">
+                  </li> */}
+                  <li className="py-5">
                     <Link
                       href="/PRIVACY POLICY.pdf"
                       class="text-white hover:text-[#d7253f] cursor-pointer"
@@ -352,20 +344,28 @@ function Footer() {
                       Privacy Policy
                     </Link>
                   </li>
-                  <li className="py-1">
+                  {/* <li className="py-1">
                     <Link
                       href={""}
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       T&C
                     </Link>
-                  </li>
-                  <li className="py-1">
+                  </li> */}
+                  {/* <li className="py-1">
                     <Link
                       href={""}
                       class="text-white hover:text-[#d7253f] cursor-pointer"
                     >
                       NDA Special
+                    </Link>
+                  </li> */}
+                  <li className="py-1">
+                    <Link
+                      href="#contact"
+                      class="text-white hover:text-[#d7253f] cursor-pointer"
+                    >
+                      Contact Us
                     </Link>
                   </li>
                 </nav>

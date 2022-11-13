@@ -55,16 +55,16 @@ function Cybersecurity() {
 
             {isSmallDevice ? (
               <p
-                style={{ textAlignLast: "center" }}
-                className="text-center text-gray-400  "
+                style={{ textAlignLast: "center", color: "#c6c6c6" }}
+                className="text-center "
               >
-                We provide HIPAA compliant,zero-trust data security vault and
+                We provide HIPAA compliant, zero-trust data security vault and
                 tokenized encrypted data handoff
               </p>
             ) : (
               <p
-                style={{ textAlignLast: "center" }}
-                className="text-gray-400 2xl:text-xl pr-6 pb-10 leading-relaxed"
+                style={{ textAlignLast: "center", color: "#c6c6c6" }}
+                className=" 2xl:text-xl pr-6 pb-24 leading-relaxed"
               >
                 We provide HIPAA compliant,zero-trust data security vault and
                 tokenized <br /> encrypted data handoff

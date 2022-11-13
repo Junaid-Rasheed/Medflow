@@ -93,7 +93,7 @@ function AboutUS() {
               <p className="leading-snug text-gray-500 2xl:text-xl leading-relaxed pt-6">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
-                  : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient Identity using next generation zero-trust security architecture."}
+                  : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient identity using next generation zero-trust security architecture."}
               </p>
               <Image
                 alt="image"
@@ -165,7 +165,7 @@ function AboutUS() {
                 style={{
                   position: "absolute",
                   width: "2%",
-
+                  top: "-7%",
                   right: "0%",
                 }}
                 src="/ellipse/Ellipse 64.png"
