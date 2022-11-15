@@ -47,7 +47,7 @@ function KeyFeatures() {
             style={{ position: "relative" }}
             className="lg:w-4/5 mx-auto flex flex-wrap"
           >
-            <div className="2xl:pr-10 lg:w-1/2 w-full  lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="2xl:pr-10 lg:w-1/2 w-full  lg:pr-20 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
                 className="text-sm font-medium title-font 2xl:text-xl  tracking-widest"
@@ -61,7 +61,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-5xl title-font font-bold mb-1"
+                    : "text-5xl  2xl:my-3 title-font font-bold mb-1"
                 }
               >
                 {data
@@ -69,7 +69,7 @@ function KeyFeatures() {
                   : " Secure Biometric Authentication"}
               </h1>
 
-              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-xl">
+              <p className="leading-snug 2xl:w-5/6 text-gray-500 leading-relaxed pt-6 2xl:text-lg">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "  Patient identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
@@ -425,7 +425,7 @@ function KeyFeatures() {
               }}
               src="/ellipse/Ellipse 64.png"
             />
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="lg:w-1/2 w-full lg:pl-20 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
                 className="text-sm font-medium title-font tracking-widest 2xl:text-xl"
@@ -439,7 +439,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-5xl title-font font-bold mb-1"
+                    : "text-5xl 2xl:text-4xl  2xl:my-3 title-font font-bold mb-1"
                 }
               >
                 {" "}
@@ -448,7 +448,7 @@ function KeyFeatures() {
                   : "  Patient Vitals Captured using Computer Vision"}
               </h1>
 
-              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-xl">
+              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-lg">
                 {data
                   ? data.map((obj) => obj.attributes.description)[1]
                   : "  We are able to capture patient vitals like blood pressure, breathing, heart rate, and stress indicators using the patient's computer or phone camera with highly accurate results.All without having to connect to any hardware devices or monitoring system."}
@@ -503,7 +503,7 @@ function KeyFeatures() {
             style={{ position: "relative" }}
             className="lg:w-4/5 mx-auto flex flex-wrap"
           >
-            <div className="lg:w-1/2 2xl:pr-8 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="lg:w-1/2 2xl:pr-8 w-full lg:pr-20 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
                 className="text-sm font-medium title-font 2xl:text-xl  tracking-widest"
@@ -517,7 +517,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-5xl  title-font font-bold mb-1"
+                    : "text-5xl  2xl:my-3  title-font font-bold mb-1"
                 }
               >
                 {data
@@ -525,7 +525,7 @@ function KeyFeatures() {
                   : "    Robust Chain of Custody Solution"}
               </h1>
 
-              <p className="leading-snug text-gray-500 pt-6 pr-6 2xl:text-xl leading-relaxed">
+              <p className="leading-snug text-gray-500 pt-6 pr-6 2xl:text-lg leading-relaxed">
                 {data
                   ? data.map((obj) => obj.attributes.description)[2]
                   : " Our Innovative approach to chain of custody allows for contracts, releases, waivers, and other legal and medical forms to be signed and looked over in real time using facial recognition, voice biometrics and facial recognition liveness verification. This record is cryptographically appended to the digital signature document or access credential chain for entry to a secure site or portal."}

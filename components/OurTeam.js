@@ -201,39 +201,6 @@ function OurTeam() {
                 height={200}
                 alt="ecommerce"
                 class="object-center rounded-full"
-                src="/Team Pics/KellyFenemore2.png"
-              />
-            </Link>
-            <div>
-              <h2
-                style={{ color: "#222a4c" }}
-                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.name)[4]
-                  : " Kelly Fenemore"}
-              </h2>
-              <p
-                style={{ color: "#d7253f" }}
-                class=" text-center mt-2 2xl:text-xl font-semibold"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.designation)[4]
-                  : "VP of Sales & Marketing"}
-              </p>
-            </div>
-          </div>
-          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
-            <Link
-              style={{ display: "flex", justifyContent: "center" }}
-              href={""}
-              class="relative block m-0 rounded overflow-hidden"
-            >
-              <Image
-                width={200}
-                height={200}
-                alt="ecommerce"
-                class="object-center rounded-full"
                 src="/Team Pics/Daniel_email_sig_Rez_Increase.png"
               />
             </Link>
@@ -253,6 +220,40 @@ function OurTeam() {
                 {data
                   ? data.map((obj) => obj.attributes.designation)[5]
                   : "VP of Operations"}
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center lg:w-1/3 md:w-1/2 p-4 w-full">
+            <Link
+              style={{ display: "flex", justifyContent: "center" }}
+              href={""}
+              class="relative block m-0 rounded overflow-hidden"
+            >
+              <Image
+                width={200}
+                height={200}
+                alt="ecommerce"
+                class="object-center rounded-full"
+                src="/Team Pics/KellyFenemore2.png"
+              />
+            </Link>
+            <div>
+              <h2
+                style={{ color: "#222a4c" }}
+                class=" title-font text-xl 2xl:text-2xl mt-2 font-bold"
+              >
+                {data
+                  ? data.map((obj) => obj.attributes.name)[4]
+                  : " Kelly Fenemore"}
+              </h2>
+              <p
+                style={{ color: "#d7253f" }}
+                class=" text-center mt-2 2xl:text-xl font-semibold"
+              >
+                {data
+                  ? data.map((obj) => obj.attributes.designation)[4]
+                  : "VP of Sales & Marketing"}
               </p>
             </div>
           </div>

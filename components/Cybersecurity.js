@@ -111,7 +111,7 @@ function Cybersecurity() {
         />
       ) : (
         <Image
-          className="2xl:mt-10 2xl:ml-28"
+          className="2xl:mt-32 2xl:ml-28"
           alt="image"
           width={1000}
           height={1000}

@@ -29,7 +29,7 @@ function TopCard() {
           className={
             isSmallDevice
               ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48 ml-6 py-28"
-              : "h-2/5 2xl:pt-48 absolute mt-16  left-0 flex flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
+              : "h-2/5 2xl:pt-20 absolute mt-16  left-0 flex flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
           }
         >
           {isSmallDevice ? (
@@ -41,7 +41,7 @@ function TopCard() {
           ) : (
             <p
               style={{ textAlignLast: "center" }}
-              className="font-bold lg:text-4xl 2xl:text-4xl 2xl:ml-64  w-3/5 2xl:w-2/5 pt-3 text-white"
+              className="font-bold lg:text-4xl 2xl:text-6xl 2xl:ml-24  w-3/5 2xl:w-2/3 pt-3 text-white"
             >
               {data
                 ? data.map((obj) => obj.attributes.text1)
@@ -50,11 +50,11 @@ function TopCard() {
           )}
           <button
             style={{
-              width: isSmallDevice ? "75%" : "21%",
+              width: isSmallDevice ? "75%" : "25%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
-            class="2xl:mt-20   2xl:text-2xl text-sm text-center cursore-pointer mt-4 2xl:left-64 lg:ml-32 2xl:ml-96 text-white py-2 px-4 rounded"
+            class="2xl:mt-20   2xl:text-3xl text-sm text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-80 text-white py-2 px-4 rounded"
           >
             <Link href={"#contact"}>
               {data
@@ -159,7 +159,7 @@ function TopCard() {
             border: "5px solid white",
           }}
           width="560"
-          className="2xl:mt-48   2xl:ml-48 "
+          className="2xl:mt-72   2xl:ml-40 "
           height="350"
           src="https://www.youtube-nocookie.com/embed/jBZzEERWvFw?autoplay=1"
           title="YouTube video player"

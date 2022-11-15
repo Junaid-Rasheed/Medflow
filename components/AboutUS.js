@@ -56,7 +56,7 @@ function AboutUS() {
                 height={400}
               />
             )}
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="lg:w-1/2 w-full lg:pl-20  lg:py-6 mt-6 lg:mt-0">
               <Image
                 alt="image"
                 width={100}
@@ -78,11 +78,11 @@ function AboutUS() {
                 {data ? data.map((obj) => obj.attributes.tag)[0] : "  Security"}
               </h2>
               <h1
-                style={{ color: "#222a4c" }}
+                style={{ color: "#2e3657" }}
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl  title-font font-bold mb-1"
+                    : "text-4xl 2xl:text-5xl 2xl:my-3 title-font font-bold mb-1"
                 }
               >
                 {data
@@ -90,7 +90,7 @@ function AboutUS() {
                   : "  Future of Telemedicine Security"}
               </h1>
 
-              <p className="leading-snug text-gray-500 2xl:text-xl leading-relaxed pt-6">
+              <p className="leading-snug text-gray-500 2xl:text-lg  leading-relaxed pt-6">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient identity using next generation zero-trust security architecture."}
@@ -145,7 +145,7 @@ function AboutUS() {
             style={{ position: "relative" }}
             className="lg:w-4/5 mx-auto flex flex-wrap"
           >
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mt-6 lg:mt-0">
               <Image
                 alt="image"
                 width={100}
@@ -197,7 +197,7 @@ function AboutUS() {
                     : " It boasts a suite of Computer vision-based features that allow providers to review and legally sign medical and legal documentation live with the patient.Issue prescriptions and capture patient vitals like heart rate,blood pressure, breathing and stress indicators all without special hardware or equipment. Just the use of the patient's computer or mobile phone camera."}
                 </p>
               ) : (
-                <p className="text-gray-500  pt-6 pr-10 leading-snug 2xl:text-xl">
+                <p className="text-gray-500  pt-6 pr-10 leading-snug 2xl:text-lg">
                   It boasts a suite of Computer vision-based features that allow
                   providers to review and legally sign medical and legal
                   documentation live with the patient.Issue prescriptions and
