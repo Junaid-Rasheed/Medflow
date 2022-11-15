@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 import Link from "next/link";
 function Footer() {
   const isSmallDevice = useMediaQuery({

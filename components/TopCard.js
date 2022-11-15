@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import ImageCard from "./ImageCard";
+import { MdArrowForward } from "react-icons/md";
 function TopCard() {
   const isSmallDevice = useMediaQuery({
     query: "(max-width: 768px)",
@@ -50,16 +51,17 @@ function TopCard() {
           )}
           <button
             style={{
-              width: isSmallDevice ? "75%" : "25%",
+              width: isSmallDevice ? "75%" : "23%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
-            class="2xl:mt-20   2xl:text-3xl text-sm text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-80 text-white py-2 px-4 rounded"
+            class="2xl:mt-20   2xl:text-2xl text-sm text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-96 text-white py-2 2xl:py-4  px-4 rounded"
           >
-            <Link href={"#contact"}>
+            <Link href={"#contact"} className="flex flex-row">
               {data
                 ? data.map((obj) => obj.attributes.buttonText)
                 : " Contact us for early access"}
+              <MdArrowForward className="mt-1 ml-3 2xl:mt-2 2xl:ml-4" />
             </Link>
           </button>
           <Image

@@ -39,7 +39,7 @@ function Header() {
             height={270}
             quality={100}
             src="/assets/logo.png"
-            className="mr-3  h-10 lg:h-8 sm:h-9"
+            className="mr-3  h-10 2xl:h-16 2xl:w-60 sm:h-9"
             alt="Medflow Logo"
           />
         </Link>

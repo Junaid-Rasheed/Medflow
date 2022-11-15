@@ -66,7 +66,7 @@ function Cybersecurity() {
                 style={{ textAlignLast: "center", color: "#c6c6c6" }}
                 className=" 2xl:text-xl pr-6 pb-24 leading-relaxed"
               >
-                We provide HIPAA compliant,zero-trust data security vault and
+                We provide HIPAA compliant, zero-trust data security vault and
                 tokenized <br /> encrypted data handoff
               </p>
             )}
