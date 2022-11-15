@@ -70,7 +70,7 @@ function Footer() {
               ) : (
                 <p
                   style={{ color: "#222a4c" }}
-                  class="text-center 2xl:ml-24 2xl:my-6 mt-2 2xl:text-5xl text-4xl title-font font-bold"
+                  class="text-center 2xl:ml-24 2xl:my-6 mt-2 2xl:text-5xl text-4xl title-font font-extrabold"
                 >
                   Stay in the know!
                 </p>
