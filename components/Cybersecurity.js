@@ -9,7 +9,7 @@ function Cybersecurity() {
   });
   return (
     <div
-      className="overflow-x-hidden lg:py-14"
+      className="overflow-x-hidden lg:py-14 "
       style={{ position: "relative" }}
     >
       <ImageCard

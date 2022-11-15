@@ -138,14 +138,14 @@ function AboutUS() {
           className={
             isSmallDevice
               ? "container px-5  mx-auto"
-              : "container px-5 py-10 mx-auto"
+              : "container px-5 py-10 mx-auto 2xl:py-32"
           }
         >
           <div
             style={{ position: "relative" }}
             className="lg:w-4/5 mx-auto flex flex-wrap"
           >
-            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mt-6 lg:mt-0">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mt-6  lg:mt-0">
               <Image
                 alt="image"
                 width={100}
