@@ -27,7 +27,7 @@ function Cybersecurity() {
           <div className="w-full  lg:py-6 mt-6 lg:mt-0">
             <h2
               style={{ color: "#bb2b92" }}
-              className="text-center text-lg 2xl:text-xl font-medium title-font  "
+              className="text-center font-PoppinRegular text-lg 2xl:text-xl 2xl:tracking-widest font-medium title-font  "
             >
               Cybersecurity
             </h2>
@@ -47,7 +47,7 @@ function Cybersecurity() {
               className={
                 isSmallDevice
                   ? "text-center pt-6 text-4xl title-font text-white font-bold mb-1"
-                  : "text-center text-4xl 2xl:text-5xl title-font text-white py-4 font-bold mb-1"
+                  : "text-center font-PoppinBold text-4xl 2xl:text-5xl title-font text-white py-4 font-bold mb-1"
               }
             >
               Zero-Trust Data Architecture
@@ -64,7 +64,7 @@ function Cybersecurity() {
             ) : (
               <p
                 style={{ textAlignLast: "center", color: "#c6c6c6" }}
-                className=" 2xl:text-xl pr-6 pb-24 leading-relaxed"
+                className=" 2xl:text-lg pr-6 pb-24 leading-relaxed"
               >
                 We provide HIPAA compliant, zero-trust data security vault and
                 tokenized <br /> encrypted data handoff
