@@ -55,13 +55,13 @@ function TopCard() {
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
-            class="2xl:mt-20   2xl:text-xl  2xl:font-PoppinSemiBold text-xs text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-96 text-white py-2 2xl:py-4  px-4 rounded"
+            class="2xl:mt-20   2xl:text-xl  2xl:tracking-wide 2xl:font-semibold 2xl:font-PoppinRegular text-xs text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-96 text-white py-2 2xl:py-4  px-4 rounded"
           >
             <Link href={"#contact"} className="flex flex-row">
               {data
                 ? data.map((obj) => obj.attributes.buttonText)
                 : " Contact us for early access"}
-              <MdArrowForward className="mt-1 ml-3 2xl:mt-1 2xl:ml-6" />
+              <MdArrowForward className="mt-1 ml-3 2xl:mt-1 " />
             </Link>
           </button>
           <Image
