@@ -40,7 +40,7 @@ function AboutUS() {
         >
           <p
             style={{ color: "#222a4c" }}
-            className="text-center   2xl:text-6xl 2xl:mt-24 pb-20 text-4xl title-font font-black mb-1"
+            className="text-center 2xl:font-PoppinBold  2xl:text-6xl 2xl:mt-24 pb-20 text-4xl title-font font-black mb-1"
           >
             What We Do
           </p>
@@ -72,7 +72,7 @@ function AboutUS() {
 
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm 2xl:text-xl font-medium title-font tracking-widest"
+                className="text-sm 2xl:text-xl font-medium title-font 2xl:font-PoppinRegular"
               >
                 {" "}
                 {data ? data.map((obj) => obj.attributes.tag)[0] : "  Security"}
@@ -82,7 +82,7 @@ function AboutUS() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl  2xl:my-3 title-font font-black mb-1"
+                    : "text-4xl 2xl:font-PoppinBold  2xl:my-3 title-font font-black mb-1"
                 }
               >
                 {data
@@ -172,7 +172,7 @@ function AboutUS() {
               />
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm 2xl:text-xl font-medium title-font  tracking-widest"
+                className="text-sm 2xl:text-xl font-medium title-font  2xl:font-PoppinRegular"
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[1]
@@ -183,7 +183,7 @@ function AboutUS() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl 2xl:text-5xl 2xl:pt-2 title-font font-bold mb-1 "
+                    : "text-4xl 2xl:font-PoppinBold 2xl:text-5xl 2xl:pt-2 title-font font-bold mb-1 "
                 }
               >
                 {data

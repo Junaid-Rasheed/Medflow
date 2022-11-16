@@ -27,7 +27,7 @@ function Cybersecurity() {
           <div className="w-full  lg:py-6 mt-6 lg:mt-0">
             <h2
               style={{ color: "#bb2b92" }}
-              className="text-center text-lg 2xl:text-xl font-medium title-font  tracking-widest"
+              className="text-center text-lg 2xl:text-xl font-medium title-font  "
             >
               Cybersecurity
             </h2>

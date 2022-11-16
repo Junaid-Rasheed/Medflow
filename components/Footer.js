@@ -70,7 +70,7 @@ function Footer() {
               ) : (
                 <p
                   style={{ color: "#222a4c" }}
-                  class="text-center 2xl:ml-24 2xl:my-6 mt-2 2xl:text-5xl text-4xl title-font font-extrabold"
+                  class="text-center font-PoppinBold 2xl:ml-24 2xl:my-6 mt-2 2xl:text-5xl text-4xl title-font font-extrabold"
                 >
                   Stay in the know!
                 </p>
@@ -181,7 +181,7 @@ function Footer() {
                 class={
                   isSmallDevice
                     ? "text-white w-full  border-0 py-2 px-6 focus:outline-none rounded text-lg"
-                    : "text-white   border-0 py-2 px-6 focus:outline-none rounded text-lg 2xl:text-2xl"
+                    : "text-white    border-0 py-2 px-6 focus:outline-none rounded text-lg 2xl:text-2xl"
                 }
               >
                 Subscribe

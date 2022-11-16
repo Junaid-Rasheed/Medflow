@@ -39,7 +39,7 @@ function KeyFeatures() {
         >
           <p
             style={{ color: "#222a4c" }}
-            className="text-center pb-10 2xl:text-6xl text-4xl title-font font-black mb-1"
+            className="text-center 2xl:font-PoppinBold pb-10 2xl:text-6xl text-4xl title-font font-black mb-1"
           >
             Key Features
           </p>
@@ -50,7 +50,7 @@ function KeyFeatures() {
             <div className="2xl:pr-10 lg:w-1/2 w-full  lg:pr-20 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font 2xl:text-xl  tracking-widest"
+                className="text-sm font-medium title-font 2xl:font-PoppinRegular 2xl:text-xl  "
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[0]
@@ -61,7 +61,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-5xl  2xl:my-3 title-font font-bold mb-1"
+                    : "text-5xl 2xl:font-PoppinBold  2xl:my-3 title-font font-bold mb-1"
                 }
               >
                 {data
@@ -210,7 +210,7 @@ function KeyFeatures() {
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font tracking-widest 2xl:text-xl"
+                className="text-sm font-medium title-font  2xl:text-xl"
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[0]
@@ -272,13 +272,13 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
+                      class=" title-font 2xl:font-PoppinBold text-xl mt-2 font-bold 2xl:text-xl"
                     >
                       Full Identity Management
                     </h2>
                     <p
                       style={{ color: "#848484" }}
-                      class="mt-4 text-sm 2xl:text-lg"
+                      class="mt-4 text-sm 2xl:text-sm 2xl:tracking-wider"
                     >
                       Full identity management suirte with innovative chain of
                       custody model.
@@ -302,13 +302,13 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
+                      class=" title-font text-xl 2xl:font-PoppinBold mt-2 font-bold 2xl:text-xl"
                     >
                       Match Speed
                     </h2>
                     <p
                       style={{ color: "#848484" }}
-                      class="mt-4 text-sm 2xl:text-lg"
+                      class="mt-4 text-sm 2xl:text-sm 2xl:tracking-wider"
                     >
                       100ms face match speed.
                     </p>
@@ -331,13 +331,13 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
+                      class=" title-font 2xl:font-PoppinBold text-xl mt-2 font-bold 2xl:text-xl"
                     >
                       Dark Complexion Accuracy
                     </h2>
                     <p
                       style={{ color: "#848484" }}
-                      class="mt-4 text-sm 2xl:text-lg"
+                      class="mt-4 text-sm 2xl:text-sm 2xl:tracking-wider"
                     >
                       99.80% faces of color and dark complexion accuracy.
                     </p>
@@ -360,13 +360,13 @@ function KeyFeatures() {
                   <div>
                     <h2
                       style={{ color: "#222a4c" }}
-                      class=" title-font text-xl mt-2 font-bold 2xl:text-2xl"
+                      class=" title-font 2xl:font-PoppinBold text-xl mt-2 font-bold 2xl:text-xl"
                     >
                       Anti-spoofing
                     </h2>
                     <p
                       style={{ color: "#848484" }}
-                      class=" text-center mt-4 text-sm 2xl:text-lg"
+                      class=" text-center mt-4 text-sm 2xl:text-sm 2xl:tracking-wider "
                     >
                       Face match liveness for anti-spoofing
                     </p>
@@ -428,7 +428,7 @@ function KeyFeatures() {
             <div className="lg:w-1/2 w-full lg:pl-20 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font tracking-widest 2xl:text-xl"
+                className="text-sm font-medium title-font 2xl:font-PoppinRegular    2xl:text-xl"
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[1]
@@ -439,7 +439,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-5xl 2xl:text-4xl  2xl:my-3 title-font tracking-wider font-black mb-1"
+                    : "text-5xl 2xl:text-4xl 2xl:font-PoppinBold  2xl:my-3 title-font tracking-wider font-black mb-1"
                 }
               >
                 {" "}
@@ -506,7 +506,7 @@ function KeyFeatures() {
             <div className="lg:w-1/2 2xl:pr-8 w-full lg:pr-20 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font 2xl:text-xl  tracking-widest"
+                className="text-sm font-medium  title-font 2xl:text-xl 2xl:font-PoppinRegular "
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[2]
@@ -517,7 +517,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-5xl 2xl:text-4xl  2xl:my-3  title-font font-black mb-1"
+                    : "text-5xl 2xl:text-4xl 2xl:font-PoppinBold  2xl:my-3  title-font font-black mb-1"
                 }
               >
                 {data

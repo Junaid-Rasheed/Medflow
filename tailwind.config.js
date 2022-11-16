@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         Yaro: "Yaro",
-        Poppin: "Poppin",
+        PoppinLight: "PoppinLight",
+        PoppinBold: "PoppinBold",
+        PoppinRegular: "PoppinRegular",
       },
     },
   },

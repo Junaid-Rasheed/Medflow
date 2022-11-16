@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 html {
-  font-family: "Poppin";
+  font-family: "PoppinLight";
 }
 @layer base {
   @font-face {
@@ -11,7 +11,15 @@ html {
     font-style: normal;
   }
   @font-face {
-    font-family: Poppin;
+    font-family: PoppinBold;
+    src: url("/fonts//Poppins-Bold.otf");
+  }
+  @font-face {
+    font-family: PoppinLight;
     src: url("/fonts//Poppins-Light.otf");
+  }
+  @font-face {
+    font-family: PoppinRegular;
+    src: url("/fonts//Poppins-Regular.otf");
   }
 }
