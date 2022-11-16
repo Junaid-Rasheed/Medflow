@@ -22,4 +22,8 @@ html {
     font-family: PoppinRegular;
     src: url("/fonts//Poppins-Regular.otf");
   }
+  @font-face {
+    font-family: PoppinSemiBold;
+    src: url("/fonts/Poppins-SemiBold.otf");
+  }
 }

@@ -12,6 +12,7 @@ module.exports = {
         PoppinLight: "PoppinLight",
         PoppinBold: "PoppinBold",
         PoppinRegular: "PoppinRegular",
+        PoppinSemiBold: "PoppinSemiBold",
       },
     },
   },

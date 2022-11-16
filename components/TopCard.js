@@ -55,7 +55,7 @@ function TopCard() {
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
             }}
-            class="2xl:mt-20   2xl:text-xl  2xl:font-PoppinRegular text-xs text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-96 text-white py-2 2xl:py-4  px-4 rounded"
+            class="2xl:mt-20   2xl:text-xl  2xl:font-PoppinSemiBold text-xs text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-96 text-white py-2 2xl:py-4  px-4 rounded"
           >
             <Link href={"#contact"} className="flex flex-row">
               {data
@@ -138,19 +138,6 @@ function TopCard() {
           allowfullscreen
         ></iframe>
       ) : (
-        // <Image
-        //   width={1000}
-        //   alt="image"
-        //   height={1000}
-        //   className="2xl:mt-48  2xl:ml-48 "
-        //   style={{
-        //     position: "absolute",
-        //     top: "253px",
-        //     width: "37%",
-        //     left: "373px",
-        //   }}
-        //   src="/assets/topcard.png"
-        // />
         <iframe
           style={{
             position: "absolute",
@@ -161,7 +148,7 @@ function TopCard() {
             border: "5px solid white",
           }}
           width="560"
-          className="2xl:mt-72   2xl:ml-40 "
+          className="2xl:mt-72   2xl:ml-52 "
           height="350"
           src="https://www.youtube-nocookie.com/embed/jBZzEERWvFw?autoplay=1"
           title="YouTube video player"
