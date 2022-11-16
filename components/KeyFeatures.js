@@ -69,7 +69,7 @@ function KeyFeatures() {
                   : " Secure Biometric Authentication"}
               </h1>
 
-              <p className="leading-snug 2xl:w-5/6 text-gray-400 leading-relaxed pt-6 2xl:text-md ">
+              <p className="leading-snug 2xl:w-5/6 text-gray-400 leading-relaxed pt-6 2xl:font-PoppinRegular 2xl:text-md ">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "  Patient identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
@@ -448,7 +448,7 @@ function KeyFeatures() {
                   : "  Patient Vitals Captured using Computer Vision"}
               </h1>
 
-              <p className="leading-snug text-gray-400 leading-relaxed pt-6 2xl:text-md tracking-wide">
+              <p className="leading-snug text-gray-400 leading-relaxed pt-6 2xl:font-PoppinRegular 2xl:text-md tracking-wide">
                 {data
                   ? data.map((obj) => obj.attributes.description)[1]
                   : "  We are able to capture patient vitals like blood pressure, breathing, heart rate, and stress indicators using the patient's computer or phone camera with highly accurate results.All without having to connect to any hardware devices or monitoring system."}
@@ -525,7 +525,7 @@ function KeyFeatures() {
                   : "    Robust Chain of Custody Solution"}
               </h1>
 
-              <p className="leading-snug text-gray-400 pt-6 pr-6 2xl:text-md  leading-relaxed">
+              <p className="leading-snug text-gray-400 pt-6 pr-6 2xl:font-PoppinRegular 2xl:text-md  leading-relaxed">
                 {data
                   ? data.map((obj) => obj.attributes.description)[2]
                   : " Our Innovative approach to chain of custody allows for contracts, releases, waivers, and other legal and medical forms to be signed and looked over in real time using facial recognition, voice biometrics and facial recognition liveness verification. This record is cryptographically appended to the digital signature document or access credential chain for entry to a secure site or portal."}
