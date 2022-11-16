@@ -61,7 +61,7 @@ function KeyFeatures() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-5xl 2xl:font-PoppinBold  2xl:my-3 title-font font-bold mb-1"
+                    : "text-4xl 2xl:font-PoppinBold  2xl:my-3 title-font font-bold mb-1"
                 }
               >
                 {data

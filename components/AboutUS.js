@@ -82,7 +82,7 @@ function AboutUS() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl 2xl:font-PoppinBold  2xl:my-3 title-font font-black mb-1"
+                    : "text-4xl  2xl:font-PoppinBold  2xl:my-3 title-font font-black mb-1"
                 }
               >
                 {data
@@ -183,7 +183,7 @@ function AboutUS() {
                 className={
                   isSmallDevice
                     ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl 2xl:font-PoppinBold 2xl:text-5xl 2xl:pt-2 title-font font-bold mb-1 "
+                    : "text-4xl 2xl:font-PoppinBold  2xl:pt-2 title-font  mb-1 "
                 }
               >
                 {data

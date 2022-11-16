@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { MdArrowForward } from "react-icons/md";
 
 import Link from "next/link";
 function Footer() {
@@ -181,10 +182,11 @@ function Footer() {
                 class={
                   isSmallDevice
                     ? "text-white w-full  border-0 py-2 px-6 focus:outline-none rounded text-lg"
-                    : "text-white    border-0 py-2 px-6 focus:outline-none rounded text-lg 2xl:text-2xl"
+                    : "text-white flex flex-row    border-0 py-2 px-6 focus:outline-none rounded text-lg 2xl:text-2xl"
                 }
               >
                 Subscribe
+                <MdArrowForward className=" ml-3 2xl:mt-2 2xl:ml-4" />
               </button>
               <ToastContainer />
             </form>
