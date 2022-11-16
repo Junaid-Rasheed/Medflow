@@ -197,7 +197,7 @@ function AboutUS() {
                     : " It boasts a suite of Computer vision-based features that allow providers to review and legally sign medical and legal documentation live with the patient.Issue prescriptions and capture patient vitals like heart rate,blood pressure, breathing and stress indicators all without special hardware or equipment. Just the use of the patient's computer or mobile phone camera."}
                 </p>
               ) : (
-                <p className="text-gray-400  pt-6 pr-10 tracking-wide leading-snug 2xl:text-lg">
+                <p className="text-gray-400 2xl:w-5/6  pt-6 pr-10 tracking-wide leading-snug 2xl:text-sm">
                   It boasts a suite of Computer vision-based features that allow
                   providers to review and legally sign medical and legal
                   documentation live with the patient. Issue prescriptions and
