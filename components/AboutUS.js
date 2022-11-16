@@ -90,7 +90,7 @@ function AboutUS() {
                   : "  Future of Telemedicine Security"}
               </h1>
 
-              <p className="leading-snug text-gray-400 2xl:text-md tracking-wide  leading-relaxed pt-6">
+              <p className="leading-snug text-gray-400 2xl:text-md  tracking-wide  leading-relaxed pt-6">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient identity using next generation zero-trust security architecture."}
@@ -197,7 +197,7 @@ function AboutUS() {
                     : " It boasts a suite of Computer vision-based features that allow providers to review and legally sign medical and legal documentation live with the patient.Issue prescriptions and capture patient vitals like heart rate,blood pressure, breathing and stress indicators all without special hardware or equipment. Just the use of the patient's computer or mobile phone camera."}
                 </p>
               ) : (
-                <p className="text-gray-400 2xl:w-5/6  pt-6 pr-10 tracking-wide leading-snug 2xl:text-md">
+                <p className="text-gray-400 2xl:w-5/6 font-PoppinRegular  pt-6 pr-10 tracking-wide leading-snug 2xl:text-sm">
                   It boasts a suite of Computer vision-based features that allow
                   providers to review and legally sign medical and legal
                   documentation live with the patient. Issue prescriptions and
