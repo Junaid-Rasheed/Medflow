@@ -144,7 +144,7 @@ function TopCard() {
             position: "absolute",
             top: "303px",
             width: "37%",
-            left: "387px",
+            left: "397px",
             borderRadius: "15px",
             border: "5px solid white",
           }}
