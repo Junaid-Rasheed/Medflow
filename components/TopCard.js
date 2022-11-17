@@ -54,9 +54,9 @@ function TopCard() {
               width: isSmallDevice ? "75%" : "23%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
-              // marginLeft: "420px",
+              marginLeft: isSmallDevice ? " " : "420px",
             }}
-            class="2xl:mt-20   2xl:text-xl  2xl:tracking-wide 2xl:font-semibold 2xl:font-PoppinRegular text-xs text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-96 text-white py-2 2xl:py-4 px-4 rounded"
+            class="2xl:mt-20   2xl:text-xl  2xl:tracking-wide 2xl:font-semibold 2xl:font-PoppinRegular text-xs text-center cursore-pointer mt-4  lg:mx-auto  text-white py-2 2xl:py-4 px-4 rounded"
           >
             <Link href={"#contact"} className="flex flex-row">
               {data
