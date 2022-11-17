@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      padding: {
+        xxl: "40rem",
+      },
       fontFamily: {
         Yaro: "Yaro",
         PoppinLight: "PoppinLight",
