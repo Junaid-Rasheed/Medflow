@@ -34,7 +34,7 @@ function AboutUS() {
         <div
           className={
             isSmallDevice
-              ? "container px-5  mx-auto"
+              ? "container px-5  py-20 mx-auto"
               : "container px-5 py-24 2xl:py-10 mx-auto"
           }
         >
@@ -72,7 +72,7 @@ function AboutUS() {
 
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm 2xl:text-xl font-medium title-font 2xl:font-PoppinRegular"
+                className="text-sm  2xl:text-xl font-medium title-font 2xl:font-PoppinRegular"
               >
                 {" "}
                 {data ? data.map((obj) => obj.attributes.tag)[0] : "  Security"}
@@ -90,7 +90,7 @@ function AboutUS() {
                   : "  Future of Telemedicine Security"}
               </h1>
 
-              <p className="leading-snug text-gray-500 2xl:font-PoppinLight 2xl:text-md  tracking-wide  leading-relaxed pt-6">
+              <p className=" text-gray-500 2xl:font-PoppinLight 2xl:text-md  tracking-wide  leading-relaxed pt-6">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient identity using next generation zero-trust security architecture."}
@@ -137,7 +137,7 @@ function AboutUS() {
         <div
           className={
             isSmallDevice
-              ? "container px-5  mx-auto"
+              ? "container px-5 py-20 mx-auto"
               : "container px-5 py-10 mx-auto 2xl:py-32"
           }
         >

@@ -51,7 +51,7 @@ function TopCard() {
           )}
           <button
             style={{
-              width: isSmallDevice ? "75%" : "23%",
+              width: isSmallDevice ? "60%" : "23%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
               marginLeft: isSmallDevice ? " " : "420px",

@@ -62,7 +62,11 @@ function Footer() {
             >
               <h2
                 style={{ color: "#bb2b92" }}
-                class="title-font text-end 2xl:text-3xl pr-10 2xl:pt-14   font-semibold  tracking-wide text-lg"
+                class={
+                  isSmallDevice
+                    ? " text-center  ml-5  font-semibold  tracking-wide text-2xl"
+                    : "title-font text-end 2xl:text-3xl pr-10 2xl:pt-14   font-semibold  tracking-wide text-lg"
+                }
               >
                 medflow
               </h2>
@@ -181,7 +185,7 @@ function Footer() {
                 }}
                 class={
                   isSmallDevice
-                    ? "text-white w-full  border-0 py-2 px-6 focus:outline-none rounded text-lg"
+                    ? "text-white w-full items-center justify-center   flex  py-2 px-6 focus:outline-none rounded text-2xl"
                     : "text-white flex flex-row    border-0 py-2 px-6 focus:outline-none rounded text-lg 2xl:text-2xl"
                 }
               >

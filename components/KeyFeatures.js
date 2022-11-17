@@ -33,13 +33,13 @@ function KeyFeatures() {
         <div
           className={
             isSmallDevice
-              ? "container px-5 pb-20 mx-auto"
+              ? "container px-5 py-20 mx-auto"
               : "container px-5  py-20  mx-auto"
           }
         >
           <p
             style={{ color: "#222a4c" }}
-            className="text-center 2xl:font-PoppinBold pb-10 2xl:text-6xl text-4xl title-font font-black mb-1"
+            className="text-center 2xl:font-PoppinBold py-10 2xl:text-6xl text-4xl title-font font-black mb-1"
           >
             Key Features
           </p>
@@ -380,7 +380,7 @@ function KeyFeatures() {
         <div
           className={
             isSmallDevice
-              ? "container px-5  mx-auto"
+              ? "container px-5 py-20 mx-auto"
               : "container px-5 py-10 mx-auto 2xl:py-14"
           }
         >
@@ -495,7 +495,7 @@ function KeyFeatures() {
         <div
           className={
             isSmallDevice
-              ? "container px-5 pb-20 mx-auto"
+              ? "container px-5 py-20 mx-auto"
               : "container px-5 py-20 mx-auto 2xl:py-32"
           }
         >
@@ -525,7 +525,7 @@ function KeyFeatures() {
                   : "    Robust Chain of Custody Solution"}
               </h1>
 
-              <p className="leading-snug text-gray-500 pt-6 pr-6 2xl:font-PoppinLight 2xl:text-md  leading-relaxed">
+              <p className=" text-gray-500 pt-6 pr-6 2xl:font-PoppinLight 2xl:text-md  leading-relaxed">
                 {data
                   ? data.map((obj) => obj.attributes.description)[2]
                   : " Our Innovative approach to chain of custody allows for contracts, releases, waivers, and other legal and medical forms to be signed and looked over in real time using facial recognition, voice biometrics and facial recognition liveness verification. This record is cryptographically appended to the digital signature document or access credential chain for entry to a secure site or portal."}

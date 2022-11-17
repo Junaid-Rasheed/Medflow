@@ -20,14 +20,18 @@ function Cybersecurity() {
           style={{ position: "relative" }}
           className={
             isSmallDevice
-              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-start pt-48 p-3  "
+              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-start pt-28 p-3  "
               : "h-2/5 absolute mt-4 left-0 flex flex-col justify-center  xl:mb-16"
           }
         >
           <div className="w-full  lg:py-6 mt-6 lg:mt-0">
             <h2
               style={{ color: "#bb2b92" }}
-              className="text-center font-PoppinRegular text-lg 2xl:text-xl 2xl:tracking-widest font-medium title-font  "
+              className={
+                isSmallDevice
+                  ? "text-center font-PoppinRegular  text-2xl font-medium title-font  "
+                  : "text-center font-PoppinRegular  text-lg 2xl:text-xl 2xl:tracking-widest font-medium title-font  "
+              }
             >
               Cybersecurity
             </h2>
@@ -46,7 +50,7 @@ function Cybersecurity() {
               //   style={{ color: "#222a4c" }}
               className={
                 isSmallDevice
-                  ? "text-center pt-6 text-4xl title-font text-white font-bold mb-1"
+                  ? "text-center pt-6 text-5xl title-font text-white font-bold mb-1"
                   : "text-center font-PoppinBold text-4xl 2xl:text-5xl title-font text-white py-4 font-bold mb-1"
               }
             >
@@ -56,7 +60,7 @@ function Cybersecurity() {
             {isSmallDevice ? (
               <p
                 style={{ textAlignLast: "center", color: "#c6c6c6" }}
-                className="text-center "
+                className="text-center text-2xl"
               >
                 We provide HIPAA compliant, zero-trust data security vault and
                 tokenized encrypted data handoff
@@ -103,9 +107,9 @@ function Cybersecurity() {
           height={1000}
           style={{
             position: "absolute",
-            top: "493px",
-            width: "80%",
-            left: "43px",
+            top: "533px",
+            width: "90%",
+            left: "25px",
           }}
           src="/assets/Group 548.png"
         />
