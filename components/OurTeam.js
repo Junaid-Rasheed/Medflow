@@ -30,114 +30,154 @@ function OurTeam() {
             : "container px-24 py-10 mx-auto"
         }
       >
-        <Image
-          width={100}
-          alt="image"
-          height={100}
-          style={{
-            position: "absolute",
-            width: "2%",
-            right: "39%",
-            top: "-4%",
-          }}
-          src="/ellipse/Ellipse 54.png"
-        />
-        <Image
-          width={100}
-          alt="image"
-          height={100}
-          style={{
-            position: "absolute",
-            width: "1%",
-            left: "3%",
-            top: "7%",
-          }}
-          src="/ellipse/Ellipse 53.png"
-        />
-        <Image
-          width={100}
-          alt="image"
-          height={100}
-          style={{
-            position: "absolute",
-            width: "2%",
-            right: "5%",
-            top: "9%",
-          }}
-          src="/ellipse/Ellipse 54.png"
-        />
-        <Image
-          width={100}
-          alt="image"
-          height={100}
-          style={{
-            position: "absolute",
-            width: "1%",
-            right: "19%",
-            top: "14%",
-          }}
-          src="/ellipse/Ellipse 53.png"
-        />
-        <Image
-          alt="image"
-          width={100}
-          height={100}
-          style={{
-            position: "absolute",
-            width: "3%",
-            left: "0%",
-            top: "49%",
-          }}
-          src="/ellipse/Ellipse 65.png"
-        />
-        <Image
-          width={100}
-          alt="image"
-          height={100}
-          style={{
-            position: "absolute",
-            width: "1%",
-            left: "10%",
-            top: "54%",
-          }}
-          src="/ellipse/Ellipse 53.png"
-        />
-        <Image
-          width={100}
-          alt="image"
-          height={100}
-          style={{
-            position: "absolute",
-            width: "1%",
-            right: "5%",
-            top: "66%",
-          }}
-          src="/ellipse/Ellipse 53.png"
-        />
-        <Image
-          alt="image"
-          width={100}
-          height={100}
-          style={{
-            position: "absolute",
-            width: "2%",
-            left: "5%",
-            top: "79%",
-          }}
-          src="/ellipse/Ellipse 54.png"
-        />
-        <Image
-          alt="image"
-          width={100}
-          height={100}
-          style={{
-            position: "absolute",
-            width: "2%",
-            right: "25%",
-            top: "84%",
-          }}
-          src="/ellipse/Ellipse 54.png"
-        />
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            width={100}
+            alt="image"
+            height={100}
+            style={{
+              position: "absolute",
+              width: "2%",
+              right: "39%",
+              top: "-4%",
+            }}
+            src="/ellipse/Ellipse 54.png"
+          />
+        )}
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            width={100}
+            alt="image"
+            height={100}
+            style={{
+              position: "absolute",
+              width: "1%",
+              left: "3%",
+              top: "7%",
+            }}
+            src="/ellipse/Ellipse 53.png"
+          />
+        )}
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            width={100}
+            alt="image"
+            height={100}
+            style={{
+              position: "absolute",
+              width: "2%",
+              right: "5%",
+              top: "9%",
+            }}
+            src="/ellipse/Ellipse 54.png"
+          />
+        )}
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            width={100}
+            alt="image"
+            height={100}
+            style={{
+              position: "absolute",
+              width: "1%",
+              right: "19%",
+              top: "14%",
+            }}
+            src="/ellipse/Ellipse 53.png"
+          />
+        )}
+
+        {isSmallDevice ? (
+          ""
+        ) : (
+          <Image
+            alt="image"
+            width={100}
+            height={100}
+            style={{
+              position: "absolute",
+              width: "3%",
+              left: "0%",
+              top: "49%",
+            }}
+            src="/ellipse/Ellipse 65.png"
+          />
+        )}
+
+        {isSmallDevice ? (
+          ""
+        ) : (
+          <Image
+            width={100}
+            alt="image"
+            height={100}
+            style={{
+              position: "absolute",
+              width: "1%",
+              left: "10%",
+              top: "54%",
+            }}
+            src="/ellipse/Ellipse 53.png"
+          />
+        )}
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            width={100}
+            alt="image"
+            height={100}
+            style={{
+              position: "absolute",
+              width: "1%",
+              right: "5%",
+              top: "66%",
+            }}
+            src="/ellipse/Ellipse 53.png"
+          />
+        )}
+
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            alt="image"
+            width={100}
+            height={100}
+            style={{
+              position: "absolute",
+              width: "2%",
+              left: "5%",
+              top: "79%",
+            }}
+            src="/ellipse/Ellipse 54.png"
+          />
+        )}
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            alt="image"
+            width={100}
+            height={100}
+            style={{
+              position: "absolute",
+              width: "2%",
+              right: "25%",
+              top: "84%",
+            }}
+            src="/ellipse/Ellipse 54.png"
+          />
+        )}
+
         <p
           style={{ color: "#222a4c" }}
           className="text-center 2xl:font-PoppinBold 2xl:text-6xl text-4xl title-font font-black mb-1 "

@@ -21,15 +21,20 @@ function KeyFeatures() {
   return (
     <div id="keyfeature">
       <section className="text-gray-600  body-font overflow-hidden">
-        <Image
-          width={100}
-          alt="image"
-          height={100}
-          style={{
-            position: "absolute",
-          }}
-          src="/ellipse/Ellipse 37.png"
-        />
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            width={100}
+            alt="image"
+            height={100}
+            style={{
+              position: "absolute",
+            }}
+            src="/ellipse/Ellipse 37.png"
+          />
+        )}
+
         <div
           className={
             isSmallDevice
@@ -83,54 +88,70 @@ function KeyFeatures() {
               width={500}
               height={500}
             />
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "2%",
-                right: "-2%",
-                top: "-1%",
-              }}
-              src="/ellipse/Ellipse 64.png"
-            />
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                width: "1%",
-                right: "49%",
-                top: "3%",
-              }}
-              src="/ellipse/Ellipse 55.png"
-            />
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "3%",
-                right: "-2%",
-                bottom: "3%",
-              }}
-              src="/ellipse/Ellipse 58.png"
-            />
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "1%",
-                right: "17%",
-                bottom: "6%",
-              }}
-              src="/ellipse/Ellipse 55.png"
-            />
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "2%",
+                  right: "-2%",
+                  top: "-1%",
+                }}
+                src="/ellipse/Ellipse 64.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "1%",
+                  right: "49%",
+                  top: "3%",
+                }}
+                src="/ellipse/Ellipse 55.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "3%",
+                  right: "-2%",
+                  bottom: "3%",
+                }}
+                src="/ellipse/Ellipse 58.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "1%",
+                  right: "17%",
+                  bottom: "6%",
+                }}
+                src="/ellipse/Ellipse 55.png"
+              />
+            )}
           </div>
         </div>
 
@@ -286,30 +307,39 @@ function KeyFeatures() {
                 height={400}
               />
             )}
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "1%",
-                left: "1%",
-                top: "-3%",
-              }}
-              src="/ellipse/Ellipse 53.png"
-            />
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "2%",
-                left: "48%",
-                top: "-6%",
-              }}
-              src="/ellipse/Ellipse 64.png"
-            />
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "1%",
+                  left: "1%",
+                  top: "-3%",
+                }}
+                src="/ellipse/Ellipse 53.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "2%",
+                  left: "48%",
+                  top: "-6%",
+                }}
+                src="/ellipse/Ellipse 64.png"
+              />
+            )}
+
             <div className="lg:w-1/2 w-full lg:pl-20 lg:py-6 mt-6 lg:mt-0">
               <h2
                 style={{ color: "#bb2b92" }}
@@ -350,30 +380,38 @@ function KeyFeatures() {
             ) : (
               ""
             )}
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                width: "3%",
-                left: "-2%",
-                bottom: "-3%",
-              }}
-              src="/ellipse/Ellipse 58.png"
-            />
-            <Image
-              width={100}
-              height={100}
-              alt="image"
-              style={{
-                position: "absolute",
-                width: "1%",
-                left: "38%",
-                bottom: "-2%",
-              }}
-              src="/ellipse/Ellipse 55.png"
-            />
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "3%",
+                  left: "-2%",
+                  bottom: "-3%",
+                }}
+                src="/ellipse/Ellipse 58.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                height={100}
+                alt="image"
+                style={{
+                  position: "absolute",
+                  width: "1%",
+                  left: "38%",
+                  bottom: "-2%",
+                }}
+                src="/ellipse/Ellipse 55.png"
+              />
+            )}
           </div>
         </div>
 
@@ -423,54 +461,70 @@ function KeyFeatures() {
               width={500}
               height={400}
             />
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "2%",
-                right: "-2%",
-                top: "-1%",
-              }}
-              src="/ellipse/Ellipse 64.png"
-            />
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                width: "1%",
-                right: "49%",
-                top: "3%",
-              }}
-              src="/ellipse/Ellipse 55.png"
-            />
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "3%",
-                right: "-2%",
-                bottom: "3%",
-              }}
-              src="/ellipse/Ellipse 58.png"
-            />
-            <Image
-              width={100}
-              alt="image"
-              height={100}
-              style={{
-                position: "absolute",
-                width: "1%",
-                right: "17%",
-                bottom: "6%",
-              }}
-              src="/ellipse/Ellipse 55.png"
-            />
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "2%",
+                  right: "-2%",
+                  top: "-1%",
+                }}
+                src="/ellipse/Ellipse 64.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "1%",
+                  right: "49%",
+                  top: "3%",
+                }}
+                src="/ellipse/Ellipse 55.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "3%",
+                  right: "-2%",
+                  bottom: "3%",
+                }}
+                src="/ellipse/Ellipse 58.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                width={100}
+                alt="image"
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "1%",
+                  right: "17%",
+                  bottom: "6%",
+                }}
+                src="/ellipse/Ellipse 55.png"
+              />
+            )}
           </div>
         </div>
       </section>

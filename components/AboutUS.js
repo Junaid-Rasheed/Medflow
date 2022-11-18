@@ -22,15 +22,20 @@ function AboutUS() {
   return (
     <div id="about">
       <section className="text-gray-600 body-font overflow-hidden">
-        <Image
-          alt="image"
-          width={100}
-          height={100}
-          style={{
-            position: "absolute",
-          }}
-          src="/ellipse/Ellipse 37.png"
-        />
+        {isSmallDevice ? (
+          " "
+        ) : (
+          <Image
+            alt="image"
+            width={100}
+            height={100}
+            style={{
+              position: "absolute",
+            }}
+            src="/ellipse/Ellipse 37.png"
+          />
+        )}
+
         <div
           className={
             isSmallDevice
@@ -99,18 +104,23 @@ function AboutUS() {
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "Medflow is an AI-powered telemedicine solution that combines best-in-class facial recognition biometrics to accurately verify patient identity using next generation zero-trust security architecture."}
               </p>
-              <Image
-                alt="image"
-                width={100}
-                height={100}
-                style={{
-                  position: "absolute",
-                  width: "3%",
-                  left: "12%",
-                  bottom: isSmallDevice ? " -90%" : "-85%",
-                }}
-                src="/ellipse/Ellipse 56-1.png"
-              />
+              {isSmallDevice ? (
+                " "
+              ) : (
+                <Image
+                  alt="image"
+                  width={100}
+                  height={100}
+                  style={{
+                    position: "absolute",
+                    width: "3%",
+                    left: "12%",
+                    bottom: isSmallDevice ? " -90%" : "-85%",
+                  }}
+                  src="/ellipse/Ellipse 56-1.png"
+                />
+              )}
+
               {/* <Image
                 alt="image"
                 width={100}
@@ -150,30 +160,39 @@ function AboutUS() {
             className="lg:w-4/5 mx-auto flex flex-wrap"
           >
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mt-6  lg:mt-0">
-              <Image
-                alt="image"
-                width={100}
-                height={100}
-                style={{
-                  position: "absolute",
-                  width: "1%",
+              {isSmallDevice ? (
+                " "
+              ) : (
+                <Image
+                  alt="image"
+                  width={100}
+                  height={100}
+                  style={{
+                    position: "absolute",
+                    width: "1%",
 
-                  right: "48%",
-                }}
-                src="/ellipse/Ellipse 53.png"
-              />
-              <Image
-                alt="image"
-                width={100}
-                height={100}
-                style={{
-                  position: "absolute",
-                  width: "2%",
-                  top: "-7%",
-                  right: "0%",
-                }}
-                src="/ellipse/Ellipse 64.png"
-              />
+                    right: "48%",
+                  }}
+                  src="/ellipse/Ellipse 53.png"
+                />
+              )}
+              {isSmallDevice ? (
+                " "
+              ) : (
+                <Image
+                  alt="image"
+                  width={100}
+                  height={100}
+                  style={{
+                    position: "absolute",
+                    width: "2%",
+                    top: "-7%",
+                    right: "0%",
+                  }}
+                  src="/ellipse/Ellipse 64.png"
+                />
+              )}
+
               <h2
                 style={{ color: "#bb2b92" }}
                 className="text-sm 2xl:text-xl  font-medium title-font  2xl:font-PoppinRegular"
@@ -235,18 +254,22 @@ function AboutUS() {
                 }}
               />
             )}
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                width: "3%",
-                left: "44%",
-                bottom: "-10%",
-              }}
-              src="/ellipse/Ellipse 76.png"
-            />
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                style={{
+                  position: "absolute",
+                  width: "3%",
+                  left: "44%",
+                  bottom: "-10%",
+                }}
+                src="/ellipse/Ellipse 76.png"
+              />
+            )}
           </div>
         </div>
       </section>

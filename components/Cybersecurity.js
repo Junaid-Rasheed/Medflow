@@ -35,17 +35,22 @@ function Cybersecurity() {
             >
               Cybersecurity
             </h2>
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                right: "27%",
-                width: "2%  ",
-              }}
-              src="/ellipse/Ellipse 64.png"
-            />
+            {isSmallDevice ? (
+              ""
+            ) : (
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                style={{
+                  position: "absolute",
+                  right: "27%",
+                  width: "2%  ",
+                }}
+                src="/ellipse/Ellipse 64.png"
+              />
+            )}
+
             <h1
               //   style={{ color: "#222a4c" }}
               className={
@@ -74,29 +79,37 @@ function Cybersecurity() {
                 tokenized <br /> encrypted data handoff
               </p>
             )}
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                left: "20%",
-                width: "1%",
-              }}
-              src="/ellipse/Ellipse 60.png"
-            />
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                left: "42%",
-                width: "1%",
-                bottom: "2%",
-              }}
-              src="/ellipse/Ellipse 60.png"
-            />
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                style={{
+                  position: "absolute",
+                  left: "20%",
+                  width: "1%",
+                }}
+                src="/ellipse/Ellipse 60.png"
+              />
+            )}
+            {isSmallDevice ? (
+              " "
+            ) : (
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                style={{
+                  position: "absolute",
+                  left: "42%",
+                  width: "1%",
+                  bottom: "2%",
+                }}
+                src="/ellipse/Ellipse 60.png"
+              />
+            )}
           </div>
         </div>
       </ImageCard>
@@ -128,66 +141,87 @@ function Cybersecurity() {
           src="/assets/Group 548.png"
         />
       )}
-      <Image
-        alt="image"
-        width={100}
-        height={100}
-        style={{
-          position: "absolute",
-          left: "18%",
-          width: "3%",
-          bottom: "22%",
-        }}
-        src="/ellipse/Ellipse 56.png"
-      />
-      <Image
-        alt="image"
-        width={100}
-        height={100}
-        style={{
-          position: "absolute",
-          left: "27%",
-          width: "1%",
-          bottom: "11%",
-        }}
-        src="/ellipse/Ellipse 60.png"
-      />
-      <Image
-        alt="image"
-        width={100}
-        height={100}
-        style={{
-          position: "absolute",
-          right: "34%",
-          width: "1%",
-          bottom: "15%",
-        }}
-        src="/ellipse/Ellipse 60.png"
-      />
-      <Image
-        width={100}
-        alt="image"
-        height={100}
-        style={{
-          position: "absolute",
-          right: "20%",
-          width: "2%",
-          bottom: "2%",
-        }}
-        src="/ellipse/Ellipse 64.png"
-      />
-      <Image
-        alt="image"
-        width={100}
-        height={100}
-        style={{
-          position: "absolute",
-          right: "15%",
-          width: "3%",
-          bottom: "33%",
-        }}
-        src="/ellipse/Ellipse 56.png"
-      />
+      {isSmallDevice ? (
+        " "
+      ) : (
+        <Image
+          alt="image"
+          width={100}
+          height={100}
+          style={{
+            position: "absolute",
+            left: "18%",
+            width: "3%",
+            bottom: "22%",
+          }}
+          src="/ellipse/Ellipse 56.png"
+        />
+      )}
+      {isSmallDevice ? (
+        " "
+      ) : (
+        <Image
+          alt="image"
+          width={100}
+          height={100}
+          style={{
+            position: "absolute",
+            left: "27%",
+            width: "1%",
+            bottom: "11%",
+          }}
+          src="/ellipse/Ellipse 60.png"
+        />
+      )}
+
+      {isSmallDevice ? (
+        ""
+      ) : (
+        <Image
+          alt="image"
+          width={100}
+          height={100}
+          style={{
+            position: "absolute",
+            right: "34%",
+            width: "1%",
+            bottom: "15%",
+          }}
+          src="/ellipse/Ellipse 60.png"
+        />
+      )}
+      {isSmallDevice ? (
+        " "
+      ) : (
+        <Image
+          width={100}
+          alt="image"
+          height={100}
+          style={{
+            position: "absolute",
+            right: "20%",
+            width: "2%",
+            bottom: "2%",
+          }}
+          src="/ellipse/Ellipse 64.png"
+        />
+      )}
+      {isSmallDevice ? (
+        ""
+      ) : (
+        <Image
+          alt="image"
+          width={100}
+          height={100}
+          style={{
+            position: "absolute",
+            right: "15%",
+            width: "3%",
+            bottom: "33%",
+          }}
+          src="/ellipse/Ellipse 56.png"
+        />
+      )}
     </div>
   );
 }

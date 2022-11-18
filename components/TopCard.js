@@ -68,44 +68,57 @@ function TopCard() {
               <MdArrowForward className="mt-1 ml-3 2xl:mt-1 " />
             </Link>
           </button>
-          <Image
-            width={100}
-            alt="image"
-            height={100}
-            style={{
-              position: "absolute",
-              width: isSmallDevice ? "3%" : "2%",
-              top: isSmallDevice ? "93%" : "63%",
-              right: "97%",
-              // right: "33%",
-            }}
-            src="/ellipse/Ellipse 60.png"
-          />
-          <Image
-            width={100}
-            alt="image"
-            height={100}
-            style={{
-              position: "absolute",
-              width: isSmallDevice ? "3%" : "2%",
-              top: isSmallDevice ? "50%" : "98%",
-              left: "57%",
-              // right: "33%",
-            }}
-            src="/ellipse/Ellipse 64.png"
-          />
-          <Image
-            width={100}
-            alt="image"
-            height={100}
-            style={{
-              position: "absolute",
-              width: "3%",
-              bottom: "-78%",
-              right: "99%",
-            }}
-            src="/ellipse/Ellipse 58.png"
-          />
+          {isSmallDevice ? (
+            " "
+          ) : (
+            <Image
+              width={100}
+              alt="image"
+              height={100}
+              style={{
+                position: "absolute",
+                width: isSmallDevice ? "3%" : "2%",
+                top: isSmallDevice ? "93%" : "63%",
+                right: "97%",
+                // right: "33%",
+              }}
+              src="/ellipse/Ellipse 60.png"
+            />
+          )}
+          {isSmallDevice ? (
+            " "
+          ) : (
+            <Image
+              width={100}
+              alt="image"
+              height={100}
+              style={{
+                position: "absolute",
+                width: isSmallDevice ? "3%" : "2%",
+                top: isSmallDevice ? "50%" : "98%",
+                left: "57%",
+                // right: "33%",
+              }}
+              src="/ellipse/Ellipse 64.png"
+            />
+          )}
+
+          {isSmallDevice ? (
+            " "
+          ) : (
+            <Image
+              width={100}
+              alt="image"
+              height={100}
+              style={{
+                position: "absolute",
+                width: "3%",
+                bottom: "-78%",
+                right: "99%",
+              }}
+              src="/ellipse/Ellipse 58.png"
+            />
+          )}
         </div>
       </ImageCard>
 

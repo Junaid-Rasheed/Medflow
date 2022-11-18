@@ -376,13 +376,17 @@ function Footer() {
                           height: "25px",
                         }}
                       />
-                      <Image
-                        alt="image"
-                        width={100}
-                        height={100}
-                        style={{ filter: "opacity(0.5)" }}
-                        src="/ellipse/Ellipse 59.png"
-                      />
+                      {isSmallDevice ? (
+                        ""
+                      ) : (
+                        <Image
+                          alt="image"
+                          width={100}
+                          height={100}
+                          style={{ filter: "opacity(0.5)" }}
+                          src="/ellipse/Ellipse 59.png"
+                        />
+                      )}
                     </Link>
                   </li>
                 </nav>
