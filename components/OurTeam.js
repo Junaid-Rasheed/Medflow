@@ -180,7 +180,11 @@ function OurTeam() {
 
         <p
           style={{ color: "#222a4c" }}
-          className="text-center 2xl:font-PoppinBold 2xl:text-6xl text-4xl title-font font-black mb-1 "
+          className={
+            isSmallDevice
+              ? "text-center mb-10 text-4xl title-font font-black  "
+              : "text-center 2xl:font-PoppinBold 2xl:text-6xl text-4xl title-font font-black mb-1 "
+          }
         >
           Our Team
         </p>

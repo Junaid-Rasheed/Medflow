@@ -120,7 +120,7 @@ function Cybersecurity() {
           height={1000}
           style={{
             position: "absolute",
-            top: "533px",
+            top: "483px",
             width: "90%",
             left: "25px",
           }}

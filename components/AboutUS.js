@@ -39,7 +39,7 @@ function AboutUS() {
         <div
           className={
             isSmallDevice
-              ? "container px-5  py-20 mx-auto"
+              ? "container px-5   mx-auto"
               : "container px-5 py-24 2xl:py-10 mx-auto"
           }
         >
@@ -61,7 +61,7 @@ function AboutUS() {
                 height={400}
               />
             )}
-            <div className="lg:w-1/2 w-full lg:pl-20  lg:py-6 mt-6 lg:mt-0">
+            <div className="lg:w-1/2 w-full lg:pl-20  lg:py-6  lg:mt-0">
               {isSmallDevice ? (
                 ""
               ) : (
@@ -151,7 +151,7 @@ function AboutUS() {
         <div
           className={
             isSmallDevice
-              ? "container px-5 py-20 mx-auto"
+              ? "container px-5 py-6 mx-auto"
               : "container px-5 py-10 mx-auto 2xl:py-32"
           }
         >
