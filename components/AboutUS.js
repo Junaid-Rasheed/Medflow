@@ -57,18 +57,22 @@ function AboutUS() {
               />
             )}
             <div className="lg:w-1/2 w-full lg:pl-20  lg:py-6 mt-6 lg:mt-0">
-              <Image
-                alt="image"
-                width={100}
-                height={100}
-                style={{
-                  position: "absolute",
-                  width: isSmallDevice ? "3%" : "1%",
-                  bottom: isSmallDevice ? "-13%" : "-33%",
-                  left: "14%",
-                }}
-                src="/ellipse/Ellipse 53.png"
-              />
+              {isSmallDevice ? (
+                ""
+              ) : (
+                <Image
+                  alt="image"
+                  width={100}
+                  height={100}
+                  style={{
+                    position: "absolute",
+                    width: isSmallDevice ? "3%" : "1%",
+                    bottom: isSmallDevice ? "-13%" : "-33%",
+                    left: "14%",
+                  }}
+                  src="/ellipse/Ellipse 53.png"
+                />
+              )}
 
               <h2
                 style={{ color: "#bb2b92" }}
@@ -81,7 +85,7 @@ function AboutUS() {
                 style={{ color: "#2e3657" }}
                 className={
                   isSmallDevice
-                    ? "text-3xl title-font font-bold mb-1"
+                    ? "text-3xl title-font font-bold mt-5 mb-1"
                     : "text-4xl  2xl:font-PoppinBold tracking-wide  2xl:my-3 title-font font-black mb-1"
                 }
               >
@@ -172,7 +176,7 @@ function AboutUS() {
               />
               <h2
                 style={{ color: "#bb2b92" }}
-                className="text-sm 2xl:text-xl font-medium title-font  2xl:font-PoppinRegular"
+                className="text-sm 2xl:text-xl  font-medium title-font  2xl:font-PoppinRegular"
               >
                 {data
                   ? data.map((obj) => obj.attributes.tag)[1]
@@ -182,7 +186,7 @@ function AboutUS() {
                 style={{ color: "#222a4c" }}
                 className={
                   isSmallDevice
-                    ? "text-3xl title-font font-bold mb-1"
+                    ? "text-3xl title-font font-bold mt-5 mb-1"
                     : "text-4xl 2xl:font-PoppinBold 2xl:w-5/6 tracking-wide 2xl:pt-2 title-font  mb-1 "
                 }
               >

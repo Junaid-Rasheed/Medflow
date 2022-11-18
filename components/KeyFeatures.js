@@ -60,7 +60,7 @@ function KeyFeatures() {
                 style={{ color: "#222a4c" }}
                 className={
                   isSmallDevice
-                    ? "text-3xl title-font font-bold mb-1"
+                    ? "text-3xl title-font mt-5 font-bold mb-1"
                     : "text-4xl 2xl:font-PoppinBold tracking-wide  2xl:my-3 title-font font-bold mb-1"
                 }
               >
@@ -69,7 +69,7 @@ function KeyFeatures() {
                   : " Secure Biometric Authentication"}
               </h1>
 
-              <p className="leading-snug 2xl:w-5/6 text-gray-500 leading-relaxed pt-6 2xl:font-PoppinLight 2xl:text-md ">
+              <p className=" 2xl:w-5/6 text-gray-500 leading-relaxed pt-6 2xl:font-PoppinLight 2xl:text-md ">
                 {data
                   ? data.map((obj) => obj.attributes.description)[0]
                   : "  Patient identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
@@ -133,121 +133,6 @@ function KeyFeatures() {
             />
           </div>
         </div>
-        {/* <div
-          style={{ position: "relative" }}
-          className={
-            isSmallDevice
-              ? "container px-5 py-4 mx-auto"
-              : "container px-5 py-24 mx-auto"
-          }
-        >
-          <p
-            style={{ color: "#222a4c" }}
-            className="text-center pb-10 2xl:text-5xl text-4xl title-font font-bold mb-1"
-          >
-            Key Features
-          </p>
-          <Image
-            width={100}
-            height={100}
-            alt="image"
-            style={{
-              position: "absolute",
-              width: "2%",
-              left: "48%",
-              top: isSmallDevice ? "20%" : "24%",
-            }}
-            src="/ellipse/Ellipse 64.png"
-          />
-          <Image
-            width={100}
-            alt="image"
-            height={100}
-            style={{
-              position: "absolute",
-              width: "1%",
-              left: "11%",
-              top: "26%",
-            }}
-            src="/ellipse/Ellipse 53.png"
-          />
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            {isSmallDevice ? (
-              ""
-            ) : (
-              <Image
-                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
-                src="/assets/maxresdefault 1.png"
-                alt="image"
-                width={500}
-                height={400}
-              />
-            )}
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                width: "3%",
-                left: "10%",
-                bottom: "13%",
-              }}
-              src="/ellipse/Ellipse 56.png"
-            />
-            <Image
-              alt="image"
-              width={100}
-              height={100}
-              style={{
-                position: "absolute",
-                width: "1%",
-                left: "40%",
-                bottom: "13%",
-              }}
-              src="/ellipse/Ellipse 53.png"
-            />
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <h2
-                style={{ color: "#bb2b92" }}
-                className="text-sm font-medium title-font  2xl:text-xl"
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.tag)[0]
-                  : "  Identity Verification"}
-              </h2>
-              <h1
-                style={{ color: "#222a4c" }}
-                className={
-                  isSmallDevice
-                    ? "text-3xl title-font font-bold mb-1"
-                    : "text-4xl title-font font-bold mb-1"
-                }
-              >
-                {data
-                  ? data.map((obj) => obj.attributes.title)[0]
-                  : " Secure Biometric Authentication"}
-              </h1>
-
-              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:text-xl">
-                {data
-                  ? data.map((obj) => obj.attributes.description)[0]
-                  : "  Patient Identity is captured at telemedicine video connect, and then passively monitored for key events. This verifies that the care provider was talking to the same patient throughout the session, including when prescribing medication."}
-              </p>
-            </div>
-            {isSmallDevice ? (
-              <Image
-                className="lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-3xl"
-                src="/assets/maxresdefault 1.png"
-                alt="image"
-                width={500}
-                height={400}
-              />
-            ) : (
-              ""
-            )}
-          </div>
-        </div> */}
 
         {isSmallDevice ? (
           ""
@@ -438,7 +323,7 @@ function KeyFeatures() {
                 style={{ color: "#222a4c" }}
                 className={
                   isSmallDevice
-                    ? "text-3xl title-font font-bold mb-1"
+                    ? "text-3xl title-font mt-5 font-bold mb-1"
                     : "text-5xl 2xl:text-4xl 2xl:font-PoppinBold  2xl:my-3 title-font tracking-wide font-black mb-1"
                 }
               >
@@ -448,7 +333,7 @@ function KeyFeatures() {
                   : "  Patient Vitals Captured using Computer Vision"}
               </h1>
 
-              <p className="leading-snug text-gray-500 leading-relaxed pt-6 2xl:font-PoppinLight 2xl:text-md tracking-wide">
+              <p className=" text-gray-500 leading-relaxed pt-6 2xl:font-PoppinLight 2xl:text-md tracking-wide">
                 {data
                   ? data.map((obj) => obj.attributes.description)[1]
                   : "  We are able to capture patient vitals like blood pressure, breathing, heart rate, and stress indicators using the patient's computer or phone camera with highly accurate results.All without having to connect to any hardware devices or monitoring system."}
@@ -516,7 +401,7 @@ function KeyFeatures() {
                 style={{ color: "#222a4c" }}
                 className={
                   isSmallDevice
-                    ? "text-3xl title-font font-bold mb-1"
+                    ? "text-3xl title-font mt-5 font-bold mb-1"
                     : "text-5xl 2xl:text-4xl 2xl:font-PoppinBold tracking-wide  2xl:my-3  title-font font-black mb-1"
                 }
               >

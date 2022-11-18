@@ -50,7 +50,7 @@ function Cybersecurity() {
               //   style={{ color: "#222a4c" }}
               className={
                 isSmallDevice
-                  ? "text-center pt-6 text-5xl title-font text-white font-bold mb-1"
+                  ? "text-center pt-6 text-4xl title-font text-white font-bold mb-1"
                   : "text-center font-PoppinBold text-4xl 2xl:text-5xl title-font text-white py-4 font-bold mb-1"
               }
             >

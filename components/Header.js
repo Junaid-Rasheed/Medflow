@@ -47,17 +47,17 @@ function Header() {
           <nav>
             <section className="MOBILE-MENU flex lg:hidden">
               <div
-                className="HAMBURGER-ICON space-y-2"
+                className="HAMBURGER-ICON space-y-2 cursor-pointer"
                 onClick={() => setIsNavOpen((prev) => !prev)}
               >
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-500"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-500"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-500"></span>
               </div>
 
               <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                 <div
-                  className="absolute top-0 right-0 px-8 py-8"
+                  className="absolute top-0 right-0 px-8 py-8 cursor-pointer"
                   onClick={() => setIsNavOpen(false)}
                 >
                   <svg
@@ -76,6 +76,7 @@ function Header() {
                 <ul className="flex flex-col items-center justify-between min-h-[250px]">
                   <li>
                     <Link
+                      onClick={() => setIsNavOpen((prev) => !prev)}
                       href="#home"
                       className=" block py-2 pr-4 pl-3  rounded font-normal text-base 2xl:text-lg md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
                     >
@@ -84,6 +85,7 @@ function Header() {
                   </li>
                   <li>
                     <Link
+                      onClick={() => setIsNavOpen((prev) => !prev)}
                       href="#about"
                       className=" block py-2 pr-4 pl-3 rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
                       aria-current="page"
@@ -94,6 +96,7 @@ function Header() {
 
                   <li>
                     <Link
+                      onClick={() => setIsNavOpen((prev) => !prev)}
                       href="#keyfeature"
                       className=" block py-2 pr-4 pl-3  rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
                     >
@@ -102,6 +105,7 @@ function Header() {
                   </li>
                   <li>
                     <Link
+                      onClick={() => setIsNavOpen((prev) => !prev)}
                       href="#team"
                       className=" block py-2 pr-4 pl-3  rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
                     >
@@ -110,6 +114,7 @@ function Header() {
                   </li>
                   <li>
                     <Link
+                      onClick={() => setIsNavOpen((prev) => !prev)}
                       href="#contact"
                       className=" block py-2 pr-4 pl-3  rounded font-normal 2xl:text-lg text-base md:bg-transparent md:text-white md:p-0 dark:text-white hover:text-red-600"
                     >

@@ -34,7 +34,10 @@ function TopCard() {
           }
         >
           {isSmallDevice ? (
-            <p className=" w-full font-bold md:w-1 text-xl  pt-3 text-white ">
+            <p
+              style={{ textAlignLast: "center" }}
+              className="font-PoppinBold  font-bold md:w-1 text-3xl w  pt-3 text-white "
+            >
               {data
                 ? data.map((obj) => obj.attributes.text1)
                 : "Build your future of telemedicine security with Medflow"}{" "}
@@ -51,10 +54,10 @@ function TopCard() {
           )}
           <button
             style={{
-              width: isSmallDevice ? "60%" : "23%",
+              width: isSmallDevice ? "65%" : "23%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
-              marginLeft: isSmallDevice ? " " : "420px",
+              marginLeft: isSmallDevice ? "60px " : "420px",
             }}
             class="2xl:mt-20   2xl:text-xl  2xl:tracking-wide 2xl:font-semibold 2xl:font-PoppinRegular text-xs text-center cursore-pointer mt-4  lg:mx-auto  text-white py-2 2xl:py-4 px-4 rounded"
           >
