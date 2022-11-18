@@ -29,13 +29,13 @@ function TopCard() {
           style={{ position: "relative" }}
           className={
             isSmallDevice
-              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48 ml-6 py-28"
+              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48  py-28"
               : "h-2/5 2xl:pt-20 absolute mt-16  left-0 flex  flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
           }
         >
           {isSmallDevice ? (
             <p
-              style={{ textAlignLast: "center" }}
+              style={{ textAlignLast: "center", textAlign: "center" }}
               className="font-PoppinBold  font-bold md:w-1 text-3xl w  pt-3 text-white "
             >
               {data
