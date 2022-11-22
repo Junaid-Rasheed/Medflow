@@ -6,10 +6,13 @@ import ImageCard from "./ImageCard";
 import { MdArrowForward } from "react-icons/md";
 function TopCard() {
   const isSmallDevice = useMediaQuery({
-    query: "(max-width: 768px)",
+    maxWidth: 470,
   });
+  const Tablet = useMediaQuery({ minWidth: 471, maxWidth: 820 });
+  const BigScreen = useMediaQuery({ minWidth: 821 });
 
   const [data, setData] = useState();
+
   async function getData() {
     const res = await fetch("http://localhost:1337/api/top-cards");
     const result = await res.json();
@@ -28,12 +31,16 @@ function TopCard() {
         <div
           style={{ position: "relative" }}
           className={
-            isSmallDevice
-              ? "h-3/5 absolute bottom-10 left-0 flex flex-col justify-end p-3 mb-48  py-28"
+            isSmallDevice &&
+            "h-3/5 absolute bottom-10 left-0 flex flex-col justify-center p-3   py-28"
+          }
+          class={
+            Tablet
+              ? "h-2/5  absolute mt-16  left-0 flex  flex-col justify-center lg:pl-28  xl:mb-16 mx-20 "
               : "h-2/5 2xl:pt-20 absolute mt-16  left-0 flex  flex-col justify-center lg:pl-28  xl:mb-16 ml-64"
           }
         >
-          {isSmallDevice ? (
+          {isSmallDevice && (
             <p
               style={{ textAlignLast: "center", textAlign: "center" }}
               className="font-PoppinBold  font-bold md:w-1 text-3xl w  pt-3 text-white "
@@ -42,7 +49,19 @@ function TopCard() {
                 ? data.map((obj) => obj.attributes.text1)
                 : "Build your future of telemedicine security with Medflow"}{" "}
             </p>
-          ) : (
+          )}
+          {Tablet && (
+            <p
+              style={{ textAlignLast: "center" }}
+              className="font-bold font-PoppinBold text-3xl    w-full  pt-3 text-white"
+            >
+              {data
+                ? data.map((obj) => obj.attributes.text1)
+                : "Build your future of telemedicine security with Medflow"}
+            </p>
+          )}
+
+          {BigScreen && (
             <p
               style={{ textAlignLast: "center" }}
               className="font-bold 2xl:font-PoppinBold lg:text-4xl 2xl:text-6xl 2xl:ml-24  w-3/5 2xl:w-2/3 pt-3 text-white"
@@ -52,14 +71,18 @@ function TopCard() {
                 : "Build your future of telemedicine security with Medflow"}
             </p>
           )}
+
           <button
             style={{
-              width: isSmallDevice ? "65%" : "23%",
+              // width: isSmallDevice ? "65%" : "23%",
+              width: (isSmallDevice && "65%") || Tablet ? "60%" : "23%",
               textAlign: "center",
               backgroundImage: "linear-gradient(#d62543, #b524bb)",
-              marginLeft: isSmallDevice ? "60px " : "420px",
+              // marginLeft: isSmallDevice ? "60px " : "420px",
             }}
-            class="2xl:mt-20   2xl:text-xl  2xl:tracking-wide 2xl:font-semibold 2xl:font-PoppinRegular text-xs text-center cursore-pointer mt-4  lg:mx-auto  text-white py-2 2xl:py-4 px-4 rounded"
+            class={`2xl:mt-20  ${
+              isSmallDevice && "ml-20"
+            }  2xl:text-xl  2xl:tracking-wide 2xl:font-semibold 2xl:font-PoppinRegular text-xs text-center cursore-pointer mt-4  lg:ml-32 2xl:ml-96 text-white py-2 2xl:py-4 px-4 rounded`}
           >
             <Link href={"#contact"} className="flex flex-row">
               {data
@@ -122,21 +145,7 @@ function TopCard() {
         </div>
       </ImageCard>
 
-      {isSmallDevice ? (
-        // <Image
-        //   width={900}
-        //   alt="image"
-        //   height={900}
-        //   style={{
-        //     position: "absolute",
-        //     top: "120px",
-        //     width: "80%",
-        //     left: "36px",
-        //     borderRadius: "6%",
-        //     border: "6px solid white",
-        //   }}
-        //   src="/assets/Medflow UI (1) 1.png"
-        // />
+      {isSmallDevice && (
         <iframe
           style={{
             position: "absolute",
@@ -154,7 +163,28 @@ function TopCard() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-      ) : (
+      )}
+      {Tablet && (
+        <iframe
+          style={{
+            position: "absolute",
+            top: "420px",
+            width: "60%",
+            left: "17%",
+            borderRadius: "6%",
+          }}
+          width="360"
+          className="2xl:mt-48   2xl:ml-48 "
+          height="200"
+          src="https://www.youtube-nocookie.com/embed/jBZzEERWvFw?autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      )}
+
+      {!Tablet && !isSmallDevice && (
         <iframe
           style={{
             position: "absolute",
